@@ -14,8 +14,12 @@ Albero binario di ricerca: O(log n), O(log n)
 Tabella: O(1), O(1) OTTIMO!!
 
 Struttura molto brava a trovare uno specifico elemento, ma non in tutto.
+Per esempio potrei avere una struttura che ha pochissimi inserimenti e poi vive sulle query, quindi a me interessa quell'aspetto e non il resto. 
 
-le tabelle hanno sono strutturate sulle coppie chiave-valore, {'ABC' : dati}. Concetto fondamentale per le tabelle di hash:
+Se sulla carta abbiamo una struttura che costa sempre O(n), ma un'operazione specifica costa O(1) allora potrebbe convenire rispetto alla tabella. 
+
+Le tabelle possono essere viste come degli array con degli indici
+Le tabelle hanno sono strutturate sulle coppie chiave-valore, {'ABC' : dati}. Concetto fondamentale per le tabelle di hash:
 Come passo dalla chiave ad un indice dell'array (che conterrà il valore)?
           
 value = H[funzione.hash(key)] e questa funzione deve lavorare in tempo costante.
