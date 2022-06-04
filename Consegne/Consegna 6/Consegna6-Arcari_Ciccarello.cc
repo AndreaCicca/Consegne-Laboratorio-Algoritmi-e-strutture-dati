@@ -8,7 +8,7 @@
 #include <fstream>
 
 using namespace std;
-typedef struct list my_stack;
+
 
 // compilazione: g++ -xc++ lezione22-scc.cc
 //
@@ -35,6 +35,11 @@ ofstream output_graph;
 int n_operazione = 0; /// contatore di operazioni per visualizzare i vari step
 
 int ct_visit = 0; // contatore durante visita
+
+typedef struct list my_stack;
+
+my_stack *s;
+
 
 //////////////////////////////////////////////////
 /// Definizione della struttura dati lista
@@ -66,7 +71,7 @@ int *V;          // elenco dei nodi del grafo
 int *V_visitato; // nodo visitato?
 int *V_Lowlink;
 int *V_onStack;
-my_stack *s;
+
 
 // list_t* E;  /// array con le liste di adiacenza per ogni nodo
 list_t **E; /// array di puntatori a le liste di adiacenza per ogni nodo
@@ -233,19 +238,6 @@ void print_array_graph(int *A, int n, string c, int a, int l, int m, int r)
 
 ////////// operazioni stack
 
-my_stack *stack_new()
-{
-  return list_new();
-}
-
-int stack_top(my_stack *s)
-{
-  if (s->head != NULL)
-    return s->head->val;
-  printf("ERRORE: stack vuoto!\n");
-  return -1;
-}
-
 void list_delete_front(list_t *l)
 {
   /// elimina il primo elemento della lista
@@ -267,6 +259,21 @@ void list_delete_front(list_t *l)
   // if (graph) print_status(l,NULL,"DEL FRONT: cancello nodo");
 }
 
+
+
+my_stack *stack_new()
+{
+  return list_new();
+}
+
+int stack_top(my_stack *s)
+{
+  if (s->head != NULL)
+    return s->head->val;
+  printf("ERRORE: stack vuoto!\n");
+  return -1;
+}
+
 int stack_pop(my_stack *s)
 {
   if (s->head != NULL)
@@ -279,10 +286,14 @@ int stack_pop(my_stack *s)
   return -1;
 }
 
+
+
+
 void stack_push(my_stack *s, int v)
 {
   list_insert_front((list_t *)s, v);
 }
+
 
 void stack_print(my_stack *s)
 {
@@ -325,13 +336,11 @@ void Scc(int v)
 
     int w = elem->val;
 
-    if (V_visitato[w] == -1)
-    {
+    if (V_visitato[w] == -1){
       Scc(w);
-      if (V_Lowlink[v] < V_Lowlink[w])
-      {
+      if (V_Lowlink[v] > V_Lowlink[w])
         V_Lowlink[v] = V_Lowlink[w];
-      }
+    }    
       else
       {
         if (V_onStack[w] == 1)
@@ -350,7 +359,7 @@ void Scc(int v)
 
       do
       {
-        int w = stack_pop(s);
+        w = stack_pop(s);
         V_onStack[w] = 0;
         printf("%d ", w);
 
@@ -358,7 +367,7 @@ void Scc(int v)
       printf("\n");
     }
   }
-}
+
 
 void swap(int &a, int &b)
 {
@@ -414,21 +423,23 @@ int main(int argc, char **argv)
     output_graph << "{ " << endl;
     output_graph << "node [shape=none]" << endl;
     output_graph << "rankdir=\"LR\"" << endl;
-    ;
+    
     //    output_graph << "edge[tailclip=false,arrowtail=dot];"<<endl;
   }
 
   // int* V; // elenco dei nodi del grafo
   // list_t* E;  /// array con le liste di adiacenza per ogni nodo
+  
+  s = stack_new();
 
   n_nodi = 5;
   V = new int[n_nodi];          //(int*)malloc(n_nodi*sizeof(int));
   V_visitato = new int[n_nodi]; //(int*)malloc(n_nodi*sizeof(int));
   V_Lowlink = new int[n_nodi];
   V_onStack = new int[n_nodi];
-  s = stack_new();
 
-  E = new list_t *[n_nodi]; //(list_t**)malloc(n_nodi*sizeof(list_t*));
+
+  E = new list_t*[n_nodi]; //(list_t**)malloc(n_nodi*sizeof(list_t*));
 
   // inizializzazione
   for (int i = 0; i < n_nodi; i++)
@@ -444,7 +455,8 @@ int main(int argc, char **argv)
     for (int j = 0; j < n_nodi; j++)
     {
       // if (rand()%2==0)
-      list_insert_front(E[i], j);
+      if (i < j)
+        list_insert_front(E[i], j);
     }
   }
 
@@ -459,7 +471,7 @@ int main(int argc, char **argv)
     list_print(E[i]);
   }
 
-  Scc(0);
+ // Scc(0);
 
   idx = 0;
 
