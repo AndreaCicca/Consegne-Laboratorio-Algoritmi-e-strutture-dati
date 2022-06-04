@@ -14,7 +14,9 @@ A ={(1,2), (2,1), (2,3), (3,2)}
 
 
 ## Grafo indiretto 
-V = {vertici}
+Un grafico diretto è un grafico in cui i bordi del grafico che collegano i vertici hanno una direzione.
+
+V = vertici
 
 A = {{a,b} t.c. a,b appartiene a V}
 
@@ -51,6 +53,8 @@ Un nodo è raggiungibile a partire da un altro se esiste un percorso che lo coll
 Lista di tutti gli elementi presenti all'interno del grafo con i relativi archi che collegano il nodo agli altri elementi del grafo.
 
 G = (V, E) modello del grafo.
+* V = vertici
+* E = VxV => archi
 
 Nel caso pessimo se ogni nodo si collega ad ogni altro nodo |E| = O(n^2), in generale minore o uguale a M^2.
 
@@ -85,33 +89,47 @@ Dobbiamo cambiare qualcosa nell'algoritmo di visita. Dobbiamo trovare una visita
 
 *Visita Depth First search (DFS)*
 
-Rec (n){
+Il nome deriva dal fatto che in un albero, ancora prima di avere visitato i nodi delle prime generazioni, l'algoritmo può ritrovarsi a visitare vertici lontani dalla radice, andando così "in profondità". Non a caso, se fatto girare su un grafo, l'algoritmo individua un albero che ne è un sottografo (ovvero che ne contiene tutti i vertici e tutti e soli gli archi che sono stati seguiti). Possiamo vedere l'algoritmo come una visita in ampiezza in cui invece che una coda utilizziamo una pila (ovvero invece di aggiungere gli elementi nuovi in fondo li aggiungiamo in cima).
 
-    n visitato?
+    Rec (n){
 
-    si -> return; n.visitato = 1;
+        n visitato?
 
-    for (archi uscenti)
+        si -> return; n.visitato = 1;
 
-        rec (n->m)
+        for (archi uscenti)
 
-}
+            rec (n->m)
+
+    }
+
 
 Sto aggiungedo un flag, quindi aumento lo spazio occupato di n, ma posso fare visite molto più veloci (n.visitato)
 
 *Visita di tutti i successivi di A: Breadth first search (BFS)* (Ricerca in ampiezza)
 
+BFS è un metodo di ricerca non informato, ed ha il suo obiettivo quello di espandere il raggio d'azione al fine di esaminare tutti i nodi del grafo sistematicamente, fino a trovare il nodo cercato. In altre parole, se il nodo cercato non viene trovato, la ricerca procede in maniera esaustiva su tutti i nodi del grafo. Questo algoritmo non è di tipo euristico.
+
+Il procedimento da seguire per metterlo in pratica è sintetizzato come segue:
+
+* Mettere in coda il nodo sorgente.
+* Togliere dalla coda un nodo (nella prima iterazione il nodo sorgente) ed esaminarlo.
+    * Se l'elemento cercato è trovato in questo nodo viene restituito il risultato e la ricerca si interrompe.
+    * Se l'elemento cercato non era in questo nodo mettere in coda tutti i successori non ancora visitati del nodo in analisi.
+* Se la coda è vuota, ogni nodo nel grafo è stato visitato e l'elemento non è stato trovato perché non presente e quindi la ricerca si interrompe.
+* Se la coda non è vuota, ripetere il passo 2.
+
 Iterativa+Coda
 
-Visita (A){
+    Visita (A){
 
-    Inserisco in coda A
+        Inserisco in coda A
 
-    while (E <- Coda){
-        successivi di E -> Coda
-        Visito E
+        while (E <- Coda){
+            successivi di E -> Coda
+            Visito E
+        }
     }
-}
 
 La coda ci permette di espandere la visita in aneli concentrici di distanza nel nostro grafo, pemettendoci anche di non creare cicli.
 
@@ -124,7 +142,7 @@ aggiungere la velocità consentita o il tempo di percorrenza medio.
 
 A ---> B (A, B, weight)
 
-La Breadth first search non funziona con i pesi perchè non vengono considerati.
+La Breadth first search (Ricerca in ampiezza) non funziona con i pesi perchè non vengono considerati.
 
 Percorso più corto?
 

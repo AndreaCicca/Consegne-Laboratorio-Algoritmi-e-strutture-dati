@@ -21,7 +21,7 @@ Proprietà interessanti di un albero binario:
 * Rispetto alla profondità dell'alboro vengono allocati un numero esponenziale di nodi
 * Se ho a disposizione n nodi, allora ho a disposizione log2(n) livelli -> algoritmo di ricerca O(log n)
 
-Un albero è competo se lìultimo livello del nostro albero è pieno oppure l'ultimo livello è parzialmente riempito (da Sx a Dx) se la struttura non è piena.
+Un albero è comlpeto se l'ultimo livello del nostro albero è pieno oppure l'ultimo livello è parzialmente riempito (da Sx a Dx) se la struttura non è piena.
 
 Se inseriamo solo a Sx o a Dx l'albero collassa in una lista.
 
@@ -37,7 +37,7 @@ Tipi di visita:
 * in ordine 
 * Post ordine
 
-Vambia la posizone della stampa prima delle chiamate ricorsive
+Varia la posizone della stampa prima delle chiamate ricorsive
 
 Preordine
 ```

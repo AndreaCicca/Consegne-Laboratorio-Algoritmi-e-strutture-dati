@@ -42,8 +42,9 @@ int stack_top(my_stack* s){
 }
 ```
 
-## Notazione
-### Notazione **Postfissa**
+# Tipologie di notazioni
+
+## Notazione **Postfissa**
 - Espressione ::= N | E E OP
 
 Detta anche notazione polacca inversa.
@@ -51,13 +52,6 @@ Nella notazione polacca inversa, detta anche notazione postfissa in contrasto co
 
 esempio 1 2 3 * +
 
-### Notiazione **Infissa**: (quella che usiamo di solito)
-- Espreessione ::= N | (E OP E) 
-
-Possiao ricreare una notazione infissa tramite una stampa di un albero, prima chiamo ricorsivamnte a sinistra, poi ricorsivamente a destra e infine l'operazione.
-È quella che si una di solito per rappresentare le espressioni in un linguaggio di programmazione.
-
-esempio 1 + 2 * 3
 
 La notazione Postfissa permette di utilizzare un approccio **bottom up** e **top down** (file 2-arith-bottom-up-dot.c e 3-arith-top-down-dot.c)
 
@@ -65,8 +59,7 @@ Bottom up:
 
 Esempio con grafico Top-Down: 1 2 3 4 + + +
 
-![img](bottom-up.png)
-
+<img src="bottom-up.png" width="800"/>
 
 Top down:
 Inserisco tutto nello Stack e quando ho finito vado a fare la valutazione di tutto lo stack della chiamata ricorsiva
@@ -78,5 +71,15 @@ Rec (S)
 
   return M1 op M2
 ```
+
+## Notiazione **Infissa**: (quella che usiamo di solito)
+- Espreessione ::= N | (E OP E) 
+
+Possiao ricreare una notazione infissa tramite una stampa di un albero, prima chiamo ricorsivamnte a sinistra, poi ricorsivamente a destra e infine l'operazione.
+È quella che si una di solito per rappresentare le espressioni in un linguaggio di programmazione.
+
+esempio 1 + 2 * 3
+
+
 
 

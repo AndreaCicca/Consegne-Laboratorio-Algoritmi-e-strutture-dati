@@ -11,6 +11,7 @@ Dove n è la dimensione dell'array e k è il massimo valore che ci può essere (
 ## Come funziona il counting sort?
 
 Possiamo **contare quanti elementi minori** o uguali a uno specifico valore.
+L'algoritmo conta il numero di occorrenze di ciascun valore presente nell'array da ordinare, memorizzando questa informazione in un array temporaneo di dimensione pari all'intervallo di valori. Il numero di ripetizioni dei valori inferiori indica la posizione del valore immediatamente successivo.
 
 ![img](conteggio.png)
 

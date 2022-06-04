@@ -34,14 +34,13 @@ void swap(int* a, int* b){
   *b = tmp;
 }
 ```
-Non è molto diverso dal modo in cui un essere umano, spesso, ordina un mazzo di carte. Esso è un algoritmo in place, cioè ordina l'array senza doverne creare una copia, risparmiando memoria. 
+
+Questo metodo di ordinamento è molto simile a quello che le persone fanno quando devono ordinare delle carte e infatti dato che si tratta di un algoritmo in place (di trasformare una struttura dati utilizzando soltanto un piccolo e costante spazio di memoria extra) può essere utilizzato con soltanto 2 mani.
 
 L'algoritmo divide in 2 parti il il campione di oggetti da ordinare e inizialmente il sotto campione di oggetti che sono già stati ordinati sarà composto da soltanto 1 elemento.
 Quindi si prende l'elemento successivo non ordinato della sequenza e si comparerà quest'ultimo con il primo elemento della sequenza ordinata. 
 Se il primo elemento è maggiore si confronta l'elemento da ordinare con quello successivo del sotto campione già ordinato e così via finchè non si arriva ad un punto in cui o si trova un elemento minore (elemento da ordinare < elemento della sequenza già oridnata) oppure si arriva alla fine della sequenza "ordinata".
 Arrivati a ciò si posizionerà l'elemento da ordinare prima di quello minore nella sequenza ordinata oppure al termine della sequenza se non ci sono elementi inferiori.
-
-Questo metodo di ordinamento è molto simile a quello che le persone fanno quando devono ordinare delle carte e infatti dato che si tratta di un algoritmo in place (di trasformare una struttura dati utilizzando soltanto un piccolo e costante spazio di memoria extra) può essere utilizzato con soltanto 2 mani.
 
 ```cpp
 L'input e':

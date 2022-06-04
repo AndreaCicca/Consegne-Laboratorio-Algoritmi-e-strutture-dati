@@ -1,3 +1,4 @@
+// Gruppo di lavoro:   Andrea Ciccarello, Jacopo Arcari
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -8,7 +9,7 @@
 
 using namespace std;
 
-// compilazione: g++ -xc++ Consegna5.cc; ./a.out -graph; neato graph.dot -Tpdf -o graph.pdf; open graph.pdf
+// compilazione: g++ -xc++ Consegna5-Arcari_Ciccarello.cc; ./a.out -graph; neato graph.dot -Tpdf -o graph.pdf; open graph.pdf
 //
 // Obiettivo:
 // 1) Implementazione della consegna 5 con la funzione algoritmo_Dijkstra e una versione modificata
