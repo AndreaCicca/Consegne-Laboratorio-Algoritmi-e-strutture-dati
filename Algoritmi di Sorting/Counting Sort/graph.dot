@@ -1,0 +1,1118 @@
+digraph g
+{ 
+node [shape=plaintext]
+nodeA_conteggio_0 -> nodeA_conteggio_1
+nodeC_conteggio_0 -> nodeC_conteggio_1
+{rank = same; nodeC_conteggio_0; nodeA_conteggio_0; }
+nodeA_conteggio_0 [label=<
+<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" > 
+<TR  ><TD >0</TD>
+<TD >1</TD>
+<TD >2</TD>
+<TD >3</TD>
+<TD >4</TD>
+<TD >5</TD>
+<TD >6</TD>
+<TD >7</TD>
+<TD >8</TD>
+<TD >9</TD>
+</TR>
+<TR><TD BORDER="1" bgcolor="#ff8080">0</TD>
+<TD BORDER="1">0</TD>
+<TD BORDER="1">2</TD>
+<TD BORDER="1">0</TD>
+<TD BORDER="1">0</TD>
+<TD BORDER="1">1</TD>
+<TD BORDER="1">2</TD>
+<TD BORDER="1">2</TD>
+<TD BORDER="1">1</TD>
+<TD BORDER="1">2</TD>
+</TR>
+</TABLE> 
+>];
+nodeC_conteggio_0 [label=<
+<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" > 
+<TR  ><TD >0</TD>
+<TD >1</TD>
+<TD >2</TD>
+</TR>
+<TR><TD BORDER="1" bgcolor="#ff8080">1</TD>
+<TD BORDER="1">0</TD>
+<TD BORDER="1">0</TD>
+</TR>
+</TABLE> 
+>];
+nodeA_conteggio_1 -> nodeA_conteggio_2
+nodeC_conteggio_1 -> nodeC_conteggio_2
+{rank = same; nodeC_conteggio_1; nodeA_conteggio_1; }
+nodeA_conteggio_1 [label=<
+<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" > 
+<TR  ><TD >0</TD>
+<TD >1</TD>
+<TD >2</TD>
+<TD >3</TD>
+<TD >4</TD>
+<TD >5</TD>
+<TD >6</TD>
+<TD >7</TD>
+<TD >8</TD>
+<TD >9</TD>
+</TR>
+<TR><TD BORDER="1">0</TD>
+<TD BORDER="1" bgcolor="#ff8080">0</TD>
+<TD BORDER="1">2</TD>
+<TD BORDER="1">0</TD>
+<TD BORDER="1">0</TD>
+<TD BORDER="1">1</TD>
+<TD BORDER="1">2</TD>
+<TD BORDER="1">2</TD>
+<TD BORDER="1">1</TD>
+<TD BORDER="1">2</TD>
+</TR>
+</TABLE> 
+>];
+nodeC_conteggio_1 [label=<
+<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" > 
+<TR  ><TD >0</TD>
+<TD >1</TD>
+<TD >2</TD>
+</TR>
+<TR><TD BORDER="1" bgcolor="#ff8080">2</TD>
+<TD BORDER="1">0</TD>
+<TD BORDER="1">0</TD>
+</TR>
+</TABLE> 
+>];
+nodeA_conteggio_2 -> nodeA_conteggio_3
+nodeC_conteggio_2 -> nodeC_conteggio_3
+{rank = same; nodeC_conteggio_2; nodeA_conteggio_2; }
+nodeA_conteggio_2 [label=<
+<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" > 
+<TR  ><TD >0</TD>
+<TD >1</TD>
+<TD >2</TD>
+<TD >3</TD>
+<TD >4</TD>
+<TD >5</TD>
+<TD >6</TD>
+<TD >7</TD>
+<TD >8</TD>
+<TD >9</TD>
+</TR>
+<TR><TD BORDER="1">0</TD>
+<TD BORDER="1">0</TD>
+<TD BORDER="1" bgcolor="#ff8080">2</TD>
+<TD BORDER="1">0</TD>
+<TD BORDER="1">0</TD>
+<TD BORDER="1">1</TD>
+<TD BORDER="1">2</TD>
+<TD BORDER="1">2</TD>
+<TD BORDER="1">1</TD>
+<TD BORDER="1">2</TD>
+</TR>
+</TABLE> 
+>];
+nodeC_conteggio_2 [label=<
+<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" > 
+<TR  ><TD >0</TD>
+<TD >1</TD>
+<TD >2</TD>
+</TR>
+<TR><TD BORDER="1">2</TD>
+<TD BORDER="1">0</TD>
+<TD BORDER="1" bgcolor="#ff8080">1</TD>
+</TR>
+</TABLE> 
+>];
+nodeA_conteggio_3 -> nodeA_conteggio_4
+nodeC_conteggio_3 -> nodeC_conteggio_4
+{rank = same; nodeC_conteggio_3; nodeA_conteggio_3; }
+nodeA_conteggio_3 [label=<
+<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" > 
+<TR  ><TD >0</TD>
+<TD >1</TD>
+<TD >2</TD>
+<TD >3</TD>
+<TD >4</TD>
+<TD >5</TD>
+<TD >6</TD>
+<TD >7</TD>
+<TD >8</TD>
+<TD >9</TD>
+</TR>
+<TR><TD BORDER="1">0</TD>
+<TD BORDER="1">0</TD>
+<TD BORDER="1">2</TD>
+<TD BORDER="1" bgcolor="#ff8080">0</TD>
+<TD BORDER="1">0</TD>
+<TD BORDER="1">1</TD>
+<TD BORDER="1">2</TD>
+<TD BORDER="1">2</TD>
+<TD BORDER="1">1</TD>
+<TD BORDER="1">2</TD>
+</TR>
+</TABLE> 
+>];
+nodeC_conteggio_3 [label=<
+<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" > 
+<TR  ><TD >0</TD>
+<TD >1</TD>
+<TD >2</TD>
+</TR>
+<TR><TD BORDER="1" bgcolor="#ff8080">3</TD>
+<TD BORDER="1">0</TD>
+<TD BORDER="1">1</TD>
+</TR>
+</TABLE> 
+>];
+nodeA_conteggio_4 -> nodeA_conteggio_5
+nodeC_conteggio_4 -> nodeC_conteggio_5
+{rank = same; nodeC_conteggio_4; nodeA_conteggio_4; }
+nodeA_conteggio_4 [label=<
+<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" > 
+<TR  ><TD >0</TD>
+<TD >1</TD>
+<TD >2</TD>
+<TD >3</TD>
+<TD >4</TD>
+<TD >5</TD>
+<TD >6</TD>
+<TD >7</TD>
+<TD >8</TD>
+<TD >9</TD>
+</TR>
+<TR><TD BORDER="1">0</TD>
+<TD BORDER="1">0</TD>
+<TD BORDER="1">2</TD>
+<TD BORDER="1">0</TD>
+<TD BORDER="1" bgcolor="#ff8080">0</TD>
+<TD BORDER="1">1</TD>
+<TD BORDER="1">2</TD>
+<TD BORDER="1">2</TD>
+<TD BORDER="1">1</TD>
+<TD BORDER="1">2</TD>
+</TR>
+</TABLE> 
+>];
+nodeC_conteggio_4 [label=<
+<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" > 
+<TR  ><TD >0</TD>
+<TD >1</TD>
+<TD >2</TD>
+</TR>
+<TR><TD BORDER="1" bgcolor="#ff8080">4</TD>
+<TD BORDER="1">0</TD>
+<TD BORDER="1">1</TD>
+</TR>
+</TABLE> 
+>];
+nodeA_conteggio_5 -> nodeA_conteggio_6
+nodeC_conteggio_5 -> nodeC_conteggio_6
+{rank = same; nodeC_conteggio_5; nodeA_conteggio_5; }
+nodeA_conteggio_5 [label=<
+<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" > 
+<TR  ><TD >0</TD>
+<TD >1</TD>
+<TD >2</TD>
+<TD >3</TD>
+<TD >4</TD>
+<TD >5</TD>
+<TD >6</TD>
+<TD >7</TD>
+<TD >8</TD>
+<TD >9</TD>
+</TR>
+<TR><TD BORDER="1">0</TD>
+<TD BORDER="1">0</TD>
+<TD BORDER="1">2</TD>
+<TD BORDER="1">0</TD>
+<TD BORDER="1">0</TD>
+<TD BORDER="1" bgcolor="#ff8080">1</TD>
+<TD BORDER="1">2</TD>
+<TD BORDER="1">2</TD>
+<TD BORDER="1">1</TD>
+<TD BORDER="1">2</TD>
+</TR>
+</TABLE> 
+>];
+nodeC_conteggio_5 [label=<
+<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" > 
+<TR  ><TD >0</TD>
+<TD >1</TD>
+<TD >2</TD>
+</TR>
+<TR><TD BORDER="1">4</TD>
+<TD BORDER="1" bgcolor="#ff8080">1</TD>
+<TD BORDER="1">1</TD>
+</TR>
+</TABLE> 
+>];
+nodeA_conteggio_6 -> nodeA_conteggio_7
+nodeC_conteggio_6 -> nodeC_conteggio_7
+{rank = same; nodeC_conteggio_6; nodeA_conteggio_6; }
+nodeA_conteggio_6 [label=<
+<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" > 
+<TR  ><TD >0</TD>
+<TD >1</TD>
+<TD >2</TD>
+<TD >3</TD>
+<TD >4</TD>
+<TD >5</TD>
+<TD >6</TD>
+<TD >7</TD>
+<TD >8</TD>
+<TD >9</TD>
+</TR>
+<TR><TD BORDER="1">0</TD>
+<TD BORDER="1">0</TD>
+<TD BORDER="1">2</TD>
+<TD BORDER="1">0</TD>
+<TD BORDER="1">0</TD>
+<TD BORDER="1">1</TD>
+<TD BORDER="1" bgcolor="#ff8080">2</TD>
+<TD BORDER="1">2</TD>
+<TD BORDER="1">1</TD>
+<TD BORDER="1">2</TD>
+</TR>
+</TABLE> 
+>];
+nodeC_conteggio_6 [label=<
+<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" > 
+<TR  ><TD >0</TD>
+<TD >1</TD>
+<TD >2</TD>
+</TR>
+<TR><TD BORDER="1">4</TD>
+<TD BORDER="1">1</TD>
+<TD BORDER="1" bgcolor="#ff8080">2</TD>
+</TR>
+</TABLE> 
+>];
+nodeA_conteggio_7 -> nodeA_conteggio_8
+nodeC_conteggio_7 -> nodeC_conteggio_8
+{rank = same; nodeC_conteggio_7; nodeA_conteggio_7; }
+nodeA_conteggio_7 [label=<
+<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" > 
+<TR  ><TD >0</TD>
+<TD >1</TD>
+<TD >2</TD>
+<TD >3</TD>
+<TD >4</TD>
+<TD >5</TD>
+<TD >6</TD>
+<TD >7</TD>
+<TD >8</TD>
+<TD >9</TD>
+</TR>
+<TR><TD BORDER="1">0</TD>
+<TD BORDER="1">0</TD>
+<TD BORDER="1">2</TD>
+<TD BORDER="1">0</TD>
+<TD BORDER="1">0</TD>
+<TD BORDER="1">1</TD>
+<TD BORDER="1">2</TD>
+<TD BORDER="1" bgcolor="#ff8080">2</TD>
+<TD BORDER="1">1</TD>
+<TD BORDER="1">2</TD>
+</TR>
+</TABLE> 
+>];
+nodeC_conteggio_7 [label=<
+<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" > 
+<TR  ><TD >0</TD>
+<TD >1</TD>
+<TD >2</TD>
+</TR>
+<TR><TD BORDER="1">4</TD>
+<TD BORDER="1">1</TD>
+<TD BORDER="1" bgcolor="#ff8080">3</TD>
+</TR>
+</TABLE> 
+>];
+nodeA_conteggio_8 -> nodeA_conteggio_9
+nodeC_conteggio_8 -> nodeC_conteggio_9
+{rank = same; nodeC_conteggio_8; nodeA_conteggio_8; }
+nodeA_conteggio_8 [label=<
+<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" > 
+<TR  ><TD >0</TD>
+<TD >1</TD>
+<TD >2</TD>
+<TD >3</TD>
+<TD >4</TD>
+<TD >5</TD>
+<TD >6</TD>
+<TD >7</TD>
+<TD >8</TD>
+<TD >9</TD>
+</TR>
+<TR><TD BORDER="1">0</TD>
+<TD BORDER="1">0</TD>
+<TD BORDER="1">2</TD>
+<TD BORDER="1">0</TD>
+<TD BORDER="1">0</TD>
+<TD BORDER="1">1</TD>
+<TD BORDER="1">2</TD>
+<TD BORDER="1">2</TD>
+<TD BORDER="1" bgcolor="#ff8080">1</TD>
+<TD BORDER="1">2</TD>
+</TR>
+</TABLE> 
+>];
+nodeC_conteggio_8 [label=<
+<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" > 
+<TR  ><TD >0</TD>
+<TD >1</TD>
+<TD >2</TD>
+</TR>
+<TR><TD BORDER="1">4</TD>
+<TD BORDER="1" bgcolor="#ff8080">2</TD>
+<TD BORDER="1">3</TD>
+</TR>
+</TABLE> 
+>];
+nodeC_conteggio_9 -> nodeC_accumulo_1
+{rank = same; nodeC_conteggio_9; nodeA_conteggio_9; }
+nodeA_conteggio_9 [label=<
+<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" > 
+<TR  ><TD >0</TD>
+<TD >1</TD>
+<TD >2</TD>
+<TD >3</TD>
+<TD >4</TD>
+<TD >5</TD>
+<TD >6</TD>
+<TD >7</TD>
+<TD >8</TD>
+<TD >9</TD>
+</TR>
+<TR><TD BORDER="1">0</TD>
+<TD BORDER="1">0</TD>
+<TD BORDER="1">2</TD>
+<TD BORDER="1">0</TD>
+<TD BORDER="1">0</TD>
+<TD BORDER="1">1</TD>
+<TD BORDER="1">2</TD>
+<TD BORDER="1">2</TD>
+<TD BORDER="1">1</TD>
+<TD BORDER="1" bgcolor="#ff8080">2</TD>
+</TR>
+</TABLE> 
+>];
+nodeC_conteggio_9 [label=<
+<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" > 
+<TR  ><TD >0</TD>
+<TD >1</TD>
+<TD >2</TD>
+</TR>
+<TR><TD BORDER="1">4</TD>
+<TD BORDER="1">2</TD>
+<TD BORDER="1" bgcolor="#ff8080">4</TD>
+</TR>
+</TABLE> 
+>];
+nodeC_accumulo_1 -> nodeC_accumulo_2
+nodeC_accumulo_1 [label=<
+<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" > 
+<TR  ><TD >0</TD>
+<TD >1</TD>
+<TD >2</TD>
+</TR>
+<TR><TD BORDER="1">4</TD>
+<TD BORDER="1" bgcolor="#ff8080">6</TD>
+<TD BORDER="1">4</TD>
+</TR>
+</TABLE> 
+>];
+nodeC_accumulo_2 -> nodeA_sort_9
+nodeC_accumulo_2 -> nodeC_sort_9
+nodeC_accumulo_2 -> nodeB_sort_9
+nodeC_accumulo_2 [label=<
+<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" > 
+<TR  ><TD >0</TD>
+<TD >1</TD>
+<TD >2</TD>
+</TR>
+<TR><TD BORDER="1">4</TD>
+<TD BORDER="1">6</TD>
+<TD BORDER="1" bgcolor="#ff8080">10</TD>
+</TR>
+</TABLE> 
+>];
+nodeA_sort_9 -> nodeA_sort_8
+nodeC_sort_9 -> nodeC_sort_8
+nodeB_sort_9 -> nodeB_sort_8
+{rank = same; nodeA_sort_9; nodeC_sort_9; nodeB_sort_9; }
+nodeA_sort_9 [label=<
+<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" > 
+<TR  ><TD >0</TD>
+<TD >1</TD>
+<TD >2</TD>
+<TD >3</TD>
+<TD >4</TD>
+<TD >5</TD>
+<TD >6</TD>
+<TD >7</TD>
+<TD >8</TD>
+<TD >9</TD>
+</TR>
+<TR><TD BORDER="1">0</TD>
+<TD BORDER="1">0</TD>
+<TD BORDER="1">2</TD>
+<TD BORDER="1">0</TD>
+<TD BORDER="1">0</TD>
+<TD BORDER="1">1</TD>
+<TD BORDER="1">2</TD>
+<TD BORDER="1">2</TD>
+<TD BORDER="1">1</TD>
+<TD BORDER="1" bgcolor="#ff8080">2</TD>
+</TR>
+</TABLE> 
+>];
+nodeC_sort_9 [label=<
+<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" > 
+<TR  ><TD >0</TD>
+<TD >1</TD>
+<TD >2</TD>
+</TR>
+<TR><TD BORDER="1">4</TD>
+<TD BORDER="1">6</TD>
+<TD BORDER="1" bgcolor="#ff8080">10</TD>
+</TR>
+</TABLE> 
+>];
+nodeB_sort_9 [label=<
+<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" > 
+<TR  ><TD >0</TD>
+<TD >1</TD>
+<TD >2</TD>
+<TD >3</TD>
+<TD >4</TD>
+<TD >5</TD>
+<TD >6</TD>
+<TD >7</TD>
+<TD >8</TD>
+<TD >9</TD>
+</TR>
+<TR><TD BORDER="1" bgcolor="#808080">-1</TD>
+<TD BORDER="1" bgcolor="#808080">-1</TD>
+<TD BORDER="1" bgcolor="#808080">-1</TD>
+<TD BORDER="1" bgcolor="#808080">-1</TD>
+<TD BORDER="1" bgcolor="#808080">-1</TD>
+<TD BORDER="1" bgcolor="#808080">-1</TD>
+<TD BORDER="1" bgcolor="#808080">-1</TD>
+<TD BORDER="1" bgcolor="#808080">-1</TD>
+<TD BORDER="1" bgcolor="#808080">-1</TD>
+<TD BORDER="1" bgcolor="#ff8080">2</TD>
+</TR>
+</TABLE> 
+>];
+nodeA_sort_8 -> nodeA_sort_7
+nodeC_sort_8 -> nodeC_sort_7
+nodeB_sort_8 -> nodeB_sort_7
+{rank = same; nodeA_sort_8; nodeC_sort_8; nodeB_sort_8; }
+nodeA_sort_8 [label=<
+<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" > 
+<TR  ><TD >0</TD>
+<TD >1</TD>
+<TD >2</TD>
+<TD >3</TD>
+<TD >4</TD>
+<TD >5</TD>
+<TD >6</TD>
+<TD >7</TD>
+<TD >8</TD>
+<TD >9</TD>
+</TR>
+<TR><TD BORDER="1">0</TD>
+<TD BORDER="1">0</TD>
+<TD BORDER="1">2</TD>
+<TD BORDER="1">0</TD>
+<TD BORDER="1">0</TD>
+<TD BORDER="1">1</TD>
+<TD BORDER="1">2</TD>
+<TD BORDER="1">2</TD>
+<TD BORDER="1" bgcolor="#ff8080">1</TD>
+<TD BORDER="1">2</TD>
+</TR>
+</TABLE> 
+>];
+nodeC_sort_8 [label=<
+<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" > 
+<TR  ><TD >0</TD>
+<TD >1</TD>
+<TD >2</TD>
+</TR>
+<TR><TD BORDER="1">4</TD>
+<TD BORDER="1" bgcolor="#ff8080">6</TD>
+<TD BORDER="1">9</TD>
+</TR>
+</TABLE> 
+>];
+nodeB_sort_8 [label=<
+<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" > 
+<TR  ><TD >0</TD>
+<TD >1</TD>
+<TD >2</TD>
+<TD >3</TD>
+<TD >4</TD>
+<TD >5</TD>
+<TD >6</TD>
+<TD >7</TD>
+<TD >8</TD>
+<TD >9</TD>
+</TR>
+<TR><TD BORDER="1" bgcolor="#808080">-1</TD>
+<TD BORDER="1" bgcolor="#808080">-1</TD>
+<TD BORDER="1" bgcolor="#808080">-1</TD>
+<TD BORDER="1" bgcolor="#808080">-1</TD>
+<TD BORDER="1" bgcolor="#808080">-1</TD>
+<TD BORDER="1" bgcolor="#ff8080">1</TD>
+<TD BORDER="1" bgcolor="#808080">-1</TD>
+<TD BORDER="1" bgcolor="#808080">-1</TD>
+<TD BORDER="1" bgcolor="#808080">-1</TD>
+<TD BORDER="1">2</TD>
+</TR>
+</TABLE> 
+>];
+nodeA_sort_7 -> nodeA_sort_6
+nodeC_sort_7 -> nodeC_sort_6
+nodeB_sort_7 -> nodeB_sort_6
+{rank = same; nodeA_sort_7; nodeC_sort_7; nodeB_sort_7; }
+nodeA_sort_7 [label=<
+<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" > 
+<TR  ><TD >0</TD>
+<TD >1</TD>
+<TD >2</TD>
+<TD >3</TD>
+<TD >4</TD>
+<TD >5</TD>
+<TD >6</TD>
+<TD >7</TD>
+<TD >8</TD>
+<TD >9</TD>
+</TR>
+<TR><TD BORDER="1">0</TD>
+<TD BORDER="1">0</TD>
+<TD BORDER="1">2</TD>
+<TD BORDER="1">0</TD>
+<TD BORDER="1">0</TD>
+<TD BORDER="1">1</TD>
+<TD BORDER="1">2</TD>
+<TD BORDER="1" bgcolor="#ff8080">2</TD>
+<TD BORDER="1">1</TD>
+<TD BORDER="1">2</TD>
+</TR>
+</TABLE> 
+>];
+nodeC_sort_7 [label=<
+<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" > 
+<TR  ><TD >0</TD>
+<TD >1</TD>
+<TD >2</TD>
+</TR>
+<TR><TD BORDER="1">4</TD>
+<TD BORDER="1">5</TD>
+<TD BORDER="1" bgcolor="#ff8080">9</TD>
+</TR>
+</TABLE> 
+>];
+nodeB_sort_7 [label=<
+<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" > 
+<TR  ><TD >0</TD>
+<TD >1</TD>
+<TD >2</TD>
+<TD >3</TD>
+<TD >4</TD>
+<TD >5</TD>
+<TD >6</TD>
+<TD >7</TD>
+<TD >8</TD>
+<TD >9</TD>
+</TR>
+<TR><TD BORDER="1" bgcolor="#808080">-1</TD>
+<TD BORDER="1" bgcolor="#808080">-1</TD>
+<TD BORDER="1" bgcolor="#808080">-1</TD>
+<TD BORDER="1" bgcolor="#808080">-1</TD>
+<TD BORDER="1" bgcolor="#808080">-1</TD>
+<TD BORDER="1">1</TD>
+<TD BORDER="1" bgcolor="#808080">-1</TD>
+<TD BORDER="1" bgcolor="#808080">-1</TD>
+<TD BORDER="1" bgcolor="#ff8080">2</TD>
+<TD BORDER="1">2</TD>
+</TR>
+</TABLE> 
+>];
+nodeA_sort_6 -> nodeA_sort_5
+nodeC_sort_6 -> nodeC_sort_5
+nodeB_sort_6 -> nodeB_sort_5
+{rank = same; nodeA_sort_6; nodeC_sort_6; nodeB_sort_6; }
+nodeA_sort_6 [label=<
+<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" > 
+<TR  ><TD >0</TD>
+<TD >1</TD>
+<TD >2</TD>
+<TD >3</TD>
+<TD >4</TD>
+<TD >5</TD>
+<TD >6</TD>
+<TD >7</TD>
+<TD >8</TD>
+<TD >9</TD>
+</TR>
+<TR><TD BORDER="1">0</TD>
+<TD BORDER="1">0</TD>
+<TD BORDER="1">2</TD>
+<TD BORDER="1">0</TD>
+<TD BORDER="1">0</TD>
+<TD BORDER="1">1</TD>
+<TD BORDER="1" bgcolor="#ff8080">2</TD>
+<TD BORDER="1">2</TD>
+<TD BORDER="1">1</TD>
+<TD BORDER="1">2</TD>
+</TR>
+</TABLE> 
+>];
+nodeC_sort_6 [label=<
+<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" > 
+<TR  ><TD >0</TD>
+<TD >1</TD>
+<TD >2</TD>
+</TR>
+<TR><TD BORDER="1">4</TD>
+<TD BORDER="1">5</TD>
+<TD BORDER="1" bgcolor="#ff8080">8</TD>
+</TR>
+</TABLE> 
+>];
+nodeB_sort_6 [label=<
+<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" > 
+<TR  ><TD >0</TD>
+<TD >1</TD>
+<TD >2</TD>
+<TD >3</TD>
+<TD >4</TD>
+<TD >5</TD>
+<TD >6</TD>
+<TD >7</TD>
+<TD >8</TD>
+<TD >9</TD>
+</TR>
+<TR><TD BORDER="1" bgcolor="#808080">-1</TD>
+<TD BORDER="1" bgcolor="#808080">-1</TD>
+<TD BORDER="1" bgcolor="#808080">-1</TD>
+<TD BORDER="1" bgcolor="#808080">-1</TD>
+<TD BORDER="1" bgcolor="#808080">-1</TD>
+<TD BORDER="1">1</TD>
+<TD BORDER="1" bgcolor="#808080">-1</TD>
+<TD BORDER="1" bgcolor="#ff8080">2</TD>
+<TD BORDER="1">2</TD>
+<TD BORDER="1">2</TD>
+</TR>
+</TABLE> 
+>];
+nodeA_sort_5 -> nodeA_sort_4
+nodeC_sort_5 -> nodeC_sort_4
+nodeB_sort_5 -> nodeB_sort_4
+{rank = same; nodeA_sort_5; nodeC_sort_5; nodeB_sort_5; }
+nodeA_sort_5 [label=<
+<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" > 
+<TR  ><TD >0</TD>
+<TD >1</TD>
+<TD >2</TD>
+<TD >3</TD>
+<TD >4</TD>
+<TD >5</TD>
+<TD >6</TD>
+<TD >7</TD>
+<TD >8</TD>
+<TD >9</TD>
+</TR>
+<TR><TD BORDER="1">0</TD>
+<TD BORDER="1">0</TD>
+<TD BORDER="1">2</TD>
+<TD BORDER="1">0</TD>
+<TD BORDER="1">0</TD>
+<TD BORDER="1" bgcolor="#ff8080">1</TD>
+<TD BORDER="1">2</TD>
+<TD BORDER="1">2</TD>
+<TD BORDER="1">1</TD>
+<TD BORDER="1">2</TD>
+</TR>
+</TABLE> 
+>];
+nodeC_sort_5 [label=<
+<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" > 
+<TR  ><TD >0</TD>
+<TD >1</TD>
+<TD >2</TD>
+</TR>
+<TR><TD BORDER="1">4</TD>
+<TD BORDER="1" bgcolor="#ff8080">5</TD>
+<TD BORDER="1">7</TD>
+</TR>
+</TABLE> 
+>];
+nodeB_sort_5 [label=<
+<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" > 
+<TR  ><TD >0</TD>
+<TD >1</TD>
+<TD >2</TD>
+<TD >3</TD>
+<TD >4</TD>
+<TD >5</TD>
+<TD >6</TD>
+<TD >7</TD>
+<TD >8</TD>
+<TD >9</TD>
+</TR>
+<TR><TD BORDER="1" bgcolor="#808080">-1</TD>
+<TD BORDER="1" bgcolor="#808080">-1</TD>
+<TD BORDER="1" bgcolor="#808080">-1</TD>
+<TD BORDER="1" bgcolor="#808080">-1</TD>
+<TD BORDER="1" bgcolor="#ff8080">1</TD>
+<TD BORDER="1">1</TD>
+<TD BORDER="1" bgcolor="#808080">-1</TD>
+<TD BORDER="1">2</TD>
+<TD BORDER="1">2</TD>
+<TD BORDER="1">2</TD>
+</TR>
+</TABLE> 
+>];
+nodeA_sort_4 -> nodeA_sort_3
+nodeC_sort_4 -> nodeC_sort_3
+nodeB_sort_4 -> nodeB_sort_3
+{rank = same; nodeA_sort_4; nodeC_sort_4; nodeB_sort_4; }
+nodeA_sort_4 [label=<
+<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" > 
+<TR  ><TD >0</TD>
+<TD >1</TD>
+<TD >2</TD>
+<TD >3</TD>
+<TD >4</TD>
+<TD >5</TD>
+<TD >6</TD>
+<TD >7</TD>
+<TD >8</TD>
+<TD >9</TD>
+</TR>
+<TR><TD BORDER="1">0</TD>
+<TD BORDER="1">0</TD>
+<TD BORDER="1">2</TD>
+<TD BORDER="1">0</TD>
+<TD BORDER="1" bgcolor="#ff8080">0</TD>
+<TD BORDER="1">1</TD>
+<TD BORDER="1">2</TD>
+<TD BORDER="1">2</TD>
+<TD BORDER="1">1</TD>
+<TD BORDER="1">2</TD>
+</TR>
+</TABLE> 
+>];
+nodeC_sort_4 [label=<
+<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" > 
+<TR  ><TD >0</TD>
+<TD >1</TD>
+<TD >2</TD>
+</TR>
+<TR><TD BORDER="1" bgcolor="#ff8080">4</TD>
+<TD BORDER="1">4</TD>
+<TD BORDER="1">7</TD>
+</TR>
+</TABLE> 
+>];
+nodeB_sort_4 [label=<
+<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" > 
+<TR  ><TD >0</TD>
+<TD >1</TD>
+<TD >2</TD>
+<TD >3</TD>
+<TD >4</TD>
+<TD >5</TD>
+<TD >6</TD>
+<TD >7</TD>
+<TD >8</TD>
+<TD >9</TD>
+</TR>
+<TR><TD BORDER="1" bgcolor="#808080">-1</TD>
+<TD BORDER="1" bgcolor="#808080">-1</TD>
+<TD BORDER="1" bgcolor="#808080">-1</TD>
+<TD BORDER="1" bgcolor="#ff8080">0</TD>
+<TD BORDER="1">1</TD>
+<TD BORDER="1">1</TD>
+<TD BORDER="1" bgcolor="#808080">-1</TD>
+<TD BORDER="1">2</TD>
+<TD BORDER="1">2</TD>
+<TD BORDER="1">2</TD>
+</TR>
+</TABLE> 
+>];
+nodeA_sort_3 -> nodeA_sort_2
+nodeC_sort_3 -> nodeC_sort_2
+nodeB_sort_3 -> nodeB_sort_2
+{rank = same; nodeA_sort_3; nodeC_sort_3; nodeB_sort_3; }
+nodeA_sort_3 [label=<
+<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" > 
+<TR  ><TD >0</TD>
+<TD >1</TD>
+<TD >2</TD>
+<TD >3</TD>
+<TD >4</TD>
+<TD >5</TD>
+<TD >6</TD>
+<TD >7</TD>
+<TD >8</TD>
+<TD >9</TD>
+</TR>
+<TR><TD BORDER="1">0</TD>
+<TD BORDER="1">0</TD>
+<TD BORDER="1">2</TD>
+<TD BORDER="1" bgcolor="#ff8080">0</TD>
+<TD BORDER="1">0</TD>
+<TD BORDER="1">1</TD>
+<TD BORDER="1">2</TD>
+<TD BORDER="1">2</TD>
+<TD BORDER="1">1</TD>
+<TD BORDER="1">2</TD>
+</TR>
+</TABLE> 
+>];
+nodeC_sort_3 [label=<
+<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" > 
+<TR  ><TD >0</TD>
+<TD >1</TD>
+<TD >2</TD>
+</TR>
+<TR><TD BORDER="1" bgcolor="#ff8080">3</TD>
+<TD BORDER="1">4</TD>
+<TD BORDER="1">7</TD>
+</TR>
+</TABLE> 
+>];
+nodeB_sort_3 [label=<
+<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" > 
+<TR  ><TD >0</TD>
+<TD >1</TD>
+<TD >2</TD>
+<TD >3</TD>
+<TD >4</TD>
+<TD >5</TD>
+<TD >6</TD>
+<TD >7</TD>
+<TD >8</TD>
+<TD >9</TD>
+</TR>
+<TR><TD BORDER="1" bgcolor="#808080">-1</TD>
+<TD BORDER="1" bgcolor="#808080">-1</TD>
+<TD BORDER="1" bgcolor="#ff8080">0</TD>
+<TD BORDER="1">0</TD>
+<TD BORDER="1">1</TD>
+<TD BORDER="1">1</TD>
+<TD BORDER="1" bgcolor="#808080">-1</TD>
+<TD BORDER="1">2</TD>
+<TD BORDER="1">2</TD>
+<TD BORDER="1">2</TD>
+</TR>
+</TABLE> 
+>];
+nodeA_sort_2 -> nodeA_sort_1
+nodeC_sort_2 -> nodeC_sort_1
+nodeB_sort_2 -> nodeB_sort_1
+{rank = same; nodeA_sort_2; nodeC_sort_2; nodeB_sort_2; }
+nodeA_sort_2 [label=<
+<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" > 
+<TR  ><TD >0</TD>
+<TD >1</TD>
+<TD >2</TD>
+<TD >3</TD>
+<TD >4</TD>
+<TD >5</TD>
+<TD >6</TD>
+<TD >7</TD>
+<TD >8</TD>
+<TD >9</TD>
+</TR>
+<TR><TD BORDER="1">0</TD>
+<TD BORDER="1">0</TD>
+<TD BORDER="1" bgcolor="#ff8080">2</TD>
+<TD BORDER="1">0</TD>
+<TD BORDER="1">0</TD>
+<TD BORDER="1">1</TD>
+<TD BORDER="1">2</TD>
+<TD BORDER="1">2</TD>
+<TD BORDER="1">1</TD>
+<TD BORDER="1">2</TD>
+</TR>
+</TABLE> 
+>];
+nodeC_sort_2 [label=<
+<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" > 
+<TR  ><TD >0</TD>
+<TD >1</TD>
+<TD >2</TD>
+</TR>
+<TR><TD BORDER="1">2</TD>
+<TD BORDER="1">4</TD>
+<TD BORDER="1" bgcolor="#ff8080">7</TD>
+</TR>
+</TABLE> 
+>];
+nodeB_sort_2 [label=<
+<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" > 
+<TR  ><TD >0</TD>
+<TD >1</TD>
+<TD >2</TD>
+<TD >3</TD>
+<TD >4</TD>
+<TD >5</TD>
+<TD >6</TD>
+<TD >7</TD>
+<TD >8</TD>
+<TD >9</TD>
+</TR>
+<TR><TD BORDER="1" bgcolor="#808080">-1</TD>
+<TD BORDER="1" bgcolor="#808080">-1</TD>
+<TD BORDER="1">0</TD>
+<TD BORDER="1">0</TD>
+<TD BORDER="1">1</TD>
+<TD BORDER="1">1</TD>
+<TD BORDER="1" bgcolor="#ff8080">2</TD>
+<TD BORDER="1">2</TD>
+<TD BORDER="1">2</TD>
+<TD BORDER="1">2</TD>
+</TR>
+</TABLE> 
+>];
+nodeA_sort_1 -> nodeA_sort_0
+nodeC_sort_1 -> nodeC_sort_0
+nodeB_sort_1 -> nodeB_sort_0
+{rank = same; nodeA_sort_1; nodeC_sort_1; nodeB_sort_1; }
+nodeA_sort_1 [label=<
+<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" > 
+<TR  ><TD >0</TD>
+<TD >1</TD>
+<TD >2</TD>
+<TD >3</TD>
+<TD >4</TD>
+<TD >5</TD>
+<TD >6</TD>
+<TD >7</TD>
+<TD >8</TD>
+<TD >9</TD>
+</TR>
+<TR><TD BORDER="1">0</TD>
+<TD BORDER="1" bgcolor="#ff8080">0</TD>
+<TD BORDER="1">2</TD>
+<TD BORDER="1">0</TD>
+<TD BORDER="1">0</TD>
+<TD BORDER="1">1</TD>
+<TD BORDER="1">2</TD>
+<TD BORDER="1">2</TD>
+<TD BORDER="1">1</TD>
+<TD BORDER="1">2</TD>
+</TR>
+</TABLE> 
+>];
+nodeC_sort_1 [label=<
+<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" > 
+<TR  ><TD >0</TD>
+<TD >1</TD>
+<TD >2</TD>
+</TR>
+<TR><TD BORDER="1" bgcolor="#ff8080">2</TD>
+<TD BORDER="1">4</TD>
+<TD BORDER="1">6</TD>
+</TR>
+</TABLE> 
+>];
+nodeB_sort_1 [label=<
+<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" > 
+<TR  ><TD >0</TD>
+<TD >1</TD>
+<TD >2</TD>
+<TD >3</TD>
+<TD >4</TD>
+<TD >5</TD>
+<TD >6</TD>
+<TD >7</TD>
+<TD >8</TD>
+<TD >9</TD>
+</TR>
+<TR><TD BORDER="1" bgcolor="#808080">-1</TD>
+<TD BORDER="1" bgcolor="#ff8080">0</TD>
+<TD BORDER="1">0</TD>
+<TD BORDER="1">0</TD>
+<TD BORDER="1">1</TD>
+<TD BORDER="1">1</TD>
+<TD BORDER="1">2</TD>
+<TD BORDER="1">2</TD>
+<TD BORDER="1">2</TD>
+<TD BORDER="1">2</TD>
+</TR>
+</TABLE> 
+>];
+{rank = same; nodeA_sort_0; nodeC_sort_0; nodeB_sort_0; }
+nodeA_sort_0 [label=<
+<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" > 
+<TR  ><TD >0</TD>
+<TD >1</TD>
+<TD >2</TD>
+<TD >3</TD>
+<TD >4</TD>
+<TD >5</TD>
+<TD >6</TD>
+<TD >7</TD>
+<TD >8</TD>
+<TD >9</TD>
+</TR>
+<TR><TD BORDER="1" bgcolor="#ff8080">0</TD>
+<TD BORDER="1">0</TD>
+<TD BORDER="1">2</TD>
+<TD BORDER="1">0</TD>
+<TD BORDER="1">0</TD>
+<TD BORDER="1">1</TD>
+<TD BORDER="1">2</TD>
+<TD BORDER="1">2</TD>
+<TD BORDER="1">1</TD>
+<TD BORDER="1">2</TD>
+</TR>
+</TABLE> 
+>];
+nodeC_sort_0 [label=<
+<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" > 
+<TR  ><TD >0</TD>
+<TD >1</TD>
+<TD >2</TD>
+</TR>
+<TR><TD BORDER="1" bgcolor="#ff8080">1</TD>
+<TD BORDER="1">4</TD>
+<TD BORDER="1">6</TD>
+</TR>
+</TABLE> 
+>];
+nodeB_sort_0 [label=<
+<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" > 
+<TR  ><TD >0</TD>
+<TD >1</TD>
+<TD >2</TD>
+<TD >3</TD>
+<TD >4</TD>
+<TD >5</TD>
+<TD >6</TD>
+<TD >7</TD>
+<TD >8</TD>
+<TD >9</TD>
+</TR>
+<TR><TD BORDER="1" bgcolor="#ff8080">0</TD>
+<TD BORDER="1">0</TD>
+<TD BORDER="1">0</TD>
+<TD BORDER="1">0</TD>
+<TD BORDER="1">1</TD>
+<TD BORDER="1">1</TD>
+<TD BORDER="1">2</TD>
+<TD BORDER="1">2</TD>
+<TD BORDER="1">2</TD>
+<TD BORDER="1">2</TD>
+</TR>
+</TABLE> 
+>];
+}

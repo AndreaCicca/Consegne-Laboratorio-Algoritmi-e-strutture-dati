@@ -1,0 +1,5 @@
+Implementare l'algoritmo per il calcolo delle componenti fortemente connesse (versione di Tarjan) come discusso a lezione.
+
+Utilizzare il codice lezione15 per partire con DFS ed adattarlo di conseguenza.
+
+Opzionale: mostrare con dot l'evoluzione della ricerca e lo stato degli indici associati ai nodi.

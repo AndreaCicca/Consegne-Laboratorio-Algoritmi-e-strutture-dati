@@ -1,0 +1,9 @@
+Completare il file lezione11-1-tree-dot-eulero.c:
+
+6) euler tour: stampa e ricostruzione albero da lista nodi
+
+partendo dallo scheletro visto a lezione, completare la funzione ricorsiva per la creazione dell'albero, basandosi sul file di input contenente una visita di eulero. L'albero ottenuto deve produrre una visita di eulero identica al file di input
+
+7) flip albero: dato un albero in input, produrre un nuovo albero in cui tutti i figli destri e sinistri risultano scambiati
+
+8) height - depth: calcolare la profondita' o l'altezza dell'albero

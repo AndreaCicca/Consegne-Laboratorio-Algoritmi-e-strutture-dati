@@ -1,0 +1,65 @@
+digraph g
+{ 
+node [shape=none]
+rankdir="LR"
+node_0_0
+[ shape = oval; label = "Idx: 0, val: 0" ];
+node_0_0 -> node_0_0 [  color=gray ]
+node_0_0 -> node_1_0 [  color=gray ]
+node_0_0 -> node_2_0 [  color=gray ]
+node_0_0 -> node_3_0 [  color=gray ]
+node_0_0 -> node_4_0 [  color=gray ]
+node_1_0
+[ shape = oval; label = "Idx: 1, val: 2" ];
+node_1_0 -> node_0_0 [  color=gray ]
+node_1_0 -> node_1_0 [  color=gray ]
+node_1_0 -> node_2_0 [  color=gray ]
+node_1_0 -> node_3_0 [  color=gray ]
+node_1_0 -> node_4_0 [  color=gray ]
+node_2_0
+[ shape = oval; label = "Idx: 2, val: 4" ];
+node_2_0 -> node_0_0 [  color=gray ]
+node_2_0 -> node_1_0 [  color=gray ]
+node_2_0 -> node_2_0 [  color=gray ]
+node_2_0 -> node_3_0 [  color=gray ]
+node_2_0 -> node_4_0 [  color=gray ]
+node_3_0
+[ shape = oval; label = "Idx: 3, val: 6" ];
+node_3_0 -> node_0_0 [  color=gray ]
+node_3_0 -> node_1_0 [  color=gray ]
+node_3_0 -> node_2_0 [  color=gray ]
+node_3_0 -> node_3_0 [  color=gray ]
+node_3_0 -> node_4_0 [  color=gray ]
+node_4_0
+[ shape = oval; label = "Idx: 4, val: 8" ];
+node_4_0 -> node_0_0 [  color=gray ]
+node_4_0 -> node_1_0 [  color=gray ]
+node_4_0 -> node_2_0 [  color=gray ]
+node_4_0 -> node_3_0 [  color=gray ]
+node_4_0 -> node_4_0 [  color=gray ]
+dfs_1 -> dfs_0[color=red, label = "0"]
+dfs_0 -> dfs_0[color=gray, label = "1"]
+dfs_0 -> dfs_1[color=gray, label = "2"]
+dfs_0 -> dfs_2[color=red, label = "3"]
+dfs_2 -> dfs_0[color=gray, label = "4"]
+dfs_2 -> dfs_1[color=gray, label = "5"]
+dfs_2 -> dfs_2[color=gray, label = "6"]
+dfs_2 -> dfs_3[color=red, label = "7"]
+dfs_3 -> dfs_0[color=gray, label = "8"]
+dfs_3 -> dfs_1[color=gray, label = "9"]
+dfs_3 -> dfs_2[color=gray, label = "10"]
+dfs_3 -> dfs_3[color=gray, label = "11"]
+dfs_3 -> dfs_4[color=red, label = "12"]
+dfs_4 -> dfs_0[color=gray, label = "13"]
+dfs_4 -> dfs_1[color=gray, label = "14"]
+dfs_4 -> dfs_2[color=gray, label = "15"]
+dfs_4 -> dfs_3[color=gray, label = "16"]
+dfs_4 -> dfs_4[color=gray, label = "17"]
+dfs_2 -> dfs_4[color=gray, label = "18"]
+dfs_0 -> dfs_3[color=gray, label = "19"]
+dfs_0 -> dfs_4[color=gray, label = "20"]
+dfs_1 -> dfs_1[color=gray, label = "21"]
+dfs_1 -> dfs_2[color=gray, label = "22"]
+dfs_1 -> dfs_3[color=gray, label = "23"]
+dfs_1 -> dfs_4[color=gray, label = "24"]
+}

@@ -1,0 +1,1 @@
+compilazione: g++ -xc++ lezione1-1-insertion_sort-simple.c 

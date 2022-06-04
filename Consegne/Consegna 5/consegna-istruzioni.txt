@@ -1,0 +1,5 @@
+Partendo dal codice lezione17-grafi-dijkstra.c
+
+- implementare l'algoritmo di Dijkstra utilizzando il min-heap precedentemente sviluppato
+
+- lanciare l'algoritmo su un grafo che rappresenta un quadrato NxN sul piano cartesiano (ogni nodo i corrisponde alla posizione (x,y) con i=x+N*y). Gli archi del grafo connettono nodi a distanza euclidea = 1

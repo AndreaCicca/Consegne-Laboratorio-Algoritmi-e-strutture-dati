@@ -1,0 +1,110 @@
+digraph g
+{ 
+node [shape=none]
+rankdir="LR"
+node_0_0
+[ shape = oval; label = "Idx: 0, val: 0 index 0 lowlink 0" ];
+node_0_0 -> node_4_0 [  color=gray ]
+node_0_0 -> node_3_0 [  color=gray ]
+node_0_0 -> node_2_0 [  color=gray ]
+node_0_0 -> node_1_0 [  color=gray ]
+node_0_0 -> node_0_0 [  color=gray ]
+node_1_0
+[ shape = oval; label = "Idx: 1, val: 2 index 0 lowlink 0" ];
+node_1_0 -> node_4_0 [  color=gray ]
+node_1_0 -> node_3_0 [  color=gray ]
+node_1_0 -> node_2_0 [  color=gray ]
+node_1_0 -> node_1_0 [  color=gray ]
+node_1_0 -> node_0_0 [  color=gray ]
+node_2_0
+[ shape = oval; label = "Idx: 2, val: 4 index 0 lowlink 0" ];
+node_2_0 -> node_4_0 [  color=gray ]
+node_2_0 -> node_3_0 [  color=gray ]
+node_2_0 -> node_2_0 [  color=gray ]
+node_2_0 -> node_1_0 [  color=gray ]
+node_2_0 -> node_0_0 [  color=gray ]
+node_3_0
+[ shape = oval; label = "Idx: 3, val: 6 index 0 lowlink 0" ];
+node_3_0 -> node_4_0 [  color=gray ]
+node_3_0 -> node_3_0 [  color=gray ]
+node_3_0 -> node_2_0 [  color=gray ]
+node_3_0 -> node_1_0 [  color=gray ]
+node_3_0 -> node_0_0 [  color=gray ]
+node_4_0
+[ shape = oval; label = "Idx: 4, val: 8 index 0 lowlink 0" ];
+node_4_0 -> node_4_0 [  color=gray ]
+node_4_0 -> node_3_0 [  color=gray ]
+node_4_0 -> node_2_0 [  color=gray ]
+node_4_0 -> node_1_0 [  color=gray ]
+node_4_0 -> node_0_0 [  color=gray ]
+node_0_1
+[ shape = oval; label = "Idx: 0, val: 0 index 0 lowlink 0" ];
+node_0_1 -> node_4_1 [  color=gray ]
+node_0_1 -> node_3_1 [  color=gray ]
+node_0_1 -> node_2_1 [  color=gray ]
+node_0_1 -> node_1_1 [  color=gray ]
+node_0_1 -> node_0_1 [  color=gray ]
+node_1_1
+[ shape = oval; label = "Idx: 1, val: 2 index 0 lowlink 0" ];
+node_1_1 -> node_4_1 [  color=gray ]
+node_1_1 -> node_3_1 [  color=gray ]
+node_1_1 -> node_2_1 [  color=gray ]
+node_1_1 -> node_1_1 [  color=gray ]
+node_1_1 -> node_0_1 [  color=gray ]
+node_2_1
+[ shape = oval; label = "Idx: 2, val: 4 index 0 lowlink 0" ];
+node_2_1 -> node_4_1 [  color=gray ]
+node_2_1 -> node_3_1 [  color=gray ]
+node_2_1 -> node_2_1 [  color=gray ]
+node_2_1 -> node_1_1 [  color=gray ]
+node_2_1 -> node_0_1 [  color=gray ]
+node_3_1
+[ shape = oval; label = "Idx: 3, val: 6 index 0 lowlink 0" ];
+node_3_1 -> node_4_1 [  color=gray ]
+node_3_1 -> node_3_1 [  color=gray ]
+node_3_1 -> node_2_1 [  color=gray ]
+node_3_1 -> node_1_1 [  color=gray ]
+node_3_1 -> node_0_1 [  color=gray ]
+node_4_1
+[ shape = oval; label = "Idx: 4, val: 8 index 0 lowlink 0" ];
+node_4_1 -> node_4_1 [  color=gray ]
+node_4_1 -> node_3_1 [  color=gray ]
+node_4_1 -> node_2_1 [  color=gray ]
+node_4_1 -> node_1_1 [  color=gray ]
+node_4_1 -> node_0_1 [  color=gray ]
+node_0_2
+[ shape = oval; label = "Idx: 0, val: 0 index 0 lowlink 0" ];
+node_0_2 -> node_4_2 [  color=gray ]
+node_0_2 -> node_3_2 [  color=gray ]
+node_0_2 -> node_2_2 [  color=gray ]
+node_0_2 -> node_1_2 [  color=gray ]
+node_0_2 -> node_0_2 [  color=gray ]
+node_1_2
+[ shape = oval; label = "Idx: 1, val: 2 index 0 lowlink 0" ];
+node_1_2 -> node_4_2 [  color=gray ]
+node_1_2 -> node_3_2 [  color=gray ]
+node_1_2 -> node_2_2 [  color=gray ]
+node_1_2 -> node_1_2 [  color=gray ]
+node_1_2 -> node_0_2 [  color=gray ]
+node_2_2
+[ shape = oval; label = "Idx: 2, val: 4 index 0 lowlink 0" ];
+node_2_2 -> node_4_2 [  color=gray ]
+node_2_2 -> node_3_2 [  color=gray ]
+node_2_2 -> node_2_2 [  color=gray ]
+node_2_2 -> node_1_2 [  color=gray ]
+node_2_2 -> node_0_2 [  color=gray ]
+node_3_2
+[ shape = oval; label = "Idx: 3, val: 6 index 0 lowlink 0" ];
+node_3_2 -> node_4_2 [  color=gray ]
+node_3_2 -> node_3_2 [  color=gray ]
+node_3_2 -> node_2_2 [  color=gray ]
+node_3_2 -> node_1_2 [  color=gray ]
+node_3_2 -> node_0_2 [  color=gray ]
+node_4_2
+[ shape = oval; label = "Idx: 4, val: 8 index 0 lowlink 0" ];
+node_4_2 -> node_4_2 [  color=gray ]
+node_4_2 -> node_3_2 [  color=gray ]
+node_4_2 -> node_2_2 [  color=gray ]
+node_4_2 -> node_1_2 [  color=gray ]
+node_4_2 -> node_0_2 [  color=gray ]
+Scc_0 -> Scc_4[color=red, label = "0"]

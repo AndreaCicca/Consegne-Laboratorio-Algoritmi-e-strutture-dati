@@ -1,0 +1,7 @@
+Implementare la rappresentazione del grafo tramite matrice di adiacenza. 
+
+Modificare il codice lezione15-grafi e sostituire le liste di adiacenza con la matrice.
+
+Adattare la creazione del grafo e la visita Dfs per lavorare con le matrici.
+
+Mantenere il codice originale, non sono accettate implementazioni completamente riscritte.
