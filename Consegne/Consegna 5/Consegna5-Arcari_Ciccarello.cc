@@ -421,9 +421,8 @@ void algoritmo_Dijkstra(int n){
     //graph_print();
 
     for (int i = 0; i < n_nodi; i++)
-    {
       heap_insert(i);
-    }
+    
     
 
     /// trova il minimo in coda
@@ -593,7 +592,7 @@ int main(int argc, char **argv) {
   }
 
 
-  algoritmo_Dijkstra(0);
+  algoritmo_Dijkstra(54);
 
 
   

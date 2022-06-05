@@ -500,7 +500,7 @@ node_t* build_euler(int preordine){
   nodo->L = NULL;
   nodo->R = NULL;
 
-  goton2:
+  ripetere_lettura_n2:
   
   input_visit >> n2;
   
@@ -509,10 +509,10 @@ node_t* build_euler(int preordine){
 
     nodo->L = nodo_sinistro;
 
-    goto goton2;
+    goto ripetere_lettura_n2;
   }
 
-  goton3:
+  ripetere_lettura_n3:
 
   input_visit >> n3;
 
@@ -521,7 +521,7 @@ node_t* build_euler(int preordine){
 
    nodo->R = nodo_destro; 
 
-    goto goton3;
+    goto ripetere_lettura_n3;
   }
   
   nodo->val = preordine;

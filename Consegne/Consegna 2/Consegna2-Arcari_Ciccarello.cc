@@ -455,7 +455,7 @@ void EulerOrder(node_t* n){
 
 node_t* build_euler(int n1){
 
-  int n2,n3;
+  int n2,n3; // variabili su cui memorizzare gli elementi letti da file
 
   /// qui ("zona" preordine) leggiamo gia' dal file il prossimo valore
   /// per decidere se dobbiamo fare la chiamata ricorsiva
@@ -464,38 +464,85 @@ node_t* build_euler(int n1){
 
   /// completare con le creazioni dei nodi e corretti puntatori
 
-  int cnt = 1; // contatore letture numero corrente
+  int cnt = 1; // contatore letture valore nodo corrente. Ogni valore deve essere letto esattamente 3 volte.
 
   node_t* nodo = node_new(n1); // inizializzazione nodo con n1
 
 
-  input_visit >> n2; // lettura elemento successivo
-  if(n1 == n2) ++cnt; //
+  input_visit >> n2; // lettura elemento successivo 
+  if(n1 == n2) ++cnt; // se leggo ancora lo stesso valore incremento cnt
 
-  if (n1 != n2) {
+  if (n1 != n2) { 
    nodo->L = build_euler(n2); // creazione sottoalbero sinistro
-
   }
 
-  input_visit >> n3; // lettura elemento successivo
+  input_visit >> n3; // lettura elemento successivo 
 
-  if(n1 == n3)  ++cnt;
+  if(n1 == n3)  ++cnt; // se leggo ancora lo stesso valore incremento cnt
 
-  while(n1 == n3 && cnt != 3) {
-    input_visit >> n3;
-     if(n1 == n3) ++cnt;
+  while(n1 == n3 && cnt != 3) { // leggo i valori successivi fino a che non ne trovo uno diverso rispetto al valore del nodo corrente oppure leggo 3 volte quest'ultimo
+    input_visit >> n3; // lettura elemento successivo 
+     if(n1 == n3) ++cnt; // se leggo ancora lo stesso valore incremento cnt
   }
 
-  if (n2 != n3 && cnt != 3){
+  if (n2 != n3 && cnt != 3){ // controllo anche che il valore del nodo corrente non sia stato letto 3 volte e quindi non possa più avere un sottoalbero destro
     nodo->R = build_euler(n3); // creazione sottoalbero destro
   }
 
-  if(cnt != 3) {
-    input_visit >> n3;
+  if(cnt != 3) { // controllo che il valore del nodo corrente sia stato letto esattamente 3 volte
+    input_visit >> n3; 
   }
 
-  return nodo;
+  return nodo; // ritorno la radice
 }
+
+node_t* build_euler_goto(int preordine){
+
+  int n1,n2,n3;
+
+
+  /// qui ("zona" preordine) leggiamo gia' dal file il prossimo valore
+  /// per decidere se dobbiamo fare la chiamata ricorsiva
+  /// in caso si passa il valore letto alla chiamata (equivalente alla lettura in preordine),
+  /// altrimenti il valore letto e' il valore da usare in ordine, tra le due chiamate ricorsive
+
+  /// completare con le creazioni dei nodi e corretti puntatori
+  
+  n1 = preordine;
+  node_t* nodo;
+
+  nodo = new node_t;
+  nodo->L = NULL;
+  nodo->R = NULL;
+
+  ripetere_lettura_n2:
+  
+  input_visit >> n2;
+  
+  if (n1!=n2) {
+   node_t* nodo_sinistro = build_euler(n2);
+
+    nodo->L = nodo_sinistro;
+
+    goto ripetere_lettura_n2;
+  }
+
+  ripetere_lettura_n3:
+
+  input_visit >> n3;
+
+  if (n2!=n3){
+   node_t* nodo_destro = build_euler(n3);   
+
+   nodo->R = nodo_destro; 
+
+    goto ripetere_lettura_n3;
+  }
+  
+  nodo->val = preordine;
+
+  return nodo;
+} 
 
 
 // 7) flip albero
