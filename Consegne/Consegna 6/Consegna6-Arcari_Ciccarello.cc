@@ -1,4 +1,3 @@
-// Gruppo di lavoro:   Andrea Ciccarello, Jacopo Arcari
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -10,7 +9,7 @@
 using namespace std;
 
 
-// compilazione: g++ -xc++ lezione22-scc.cc
+// compilazione: g++ -xc++ g++ -xc++ Consegna6-Arcari_Ciccarello.cc; ./a.out -graph; dot graph.dot -Tpdf -o graph.pdf; open graph.pdf
 //
 // Obiettivo:
 // 1) rappresentazione grafo con lista di adiacenza

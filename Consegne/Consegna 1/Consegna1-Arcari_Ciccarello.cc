@@ -11,7 +11,7 @@ using namespace std;
 
 #define PIVOT 400
 
-// compilazione: g++ -xc++ consegna1-loader.c 
+// compilazione: g++ -xc++ Consegna1-Arcari_Ciccarello.cc
 
 // Il programma carica il file data.txt contenente 107 righe con i dati di contagi covid per provincia
 // ./a.out
@@ -19,6 +19,10 @@ using namespace std;
 
 // Obiettivo:
 // Creare un algoritmo di sorting che minimizzi la somma del numero di accessi per ogni sorting di ciascuna riga del file
+
+// negativi Insertion sort
+// Sotto il valore del Pivot counting_sort
+// Sopra il valore del Pivot quick_sort
 
 
 int ct_swap=0;

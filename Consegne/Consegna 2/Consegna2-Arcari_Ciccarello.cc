@@ -9,7 +9,7 @@
 
 using namespace std;
 
-// compilazione: g++ -xc++ lezione10-1-tree-dot.c 
+// compilazione: g++ -xc++ Consegna2-Arcari_Ciccarello.cc
 //
 
 // Alberi binari
@@ -447,37 +447,8 @@ void EulerOrder(node_t* n){
   
 }
 
-// 8) height - depth
-int tree_height(node_t* radice) {
-    if (radice){
-        int altezza_sinistra = tree_height(radice->L);
-        int altezza_destra = tree_height(radice->R);
-        if (altezza_sinistra >= altezza_destra)
-            return altezza_sinistra + 1;
-        else
-            return altezza_destra + 1;
-    }
-    else {
-      return 0; // se si arriva ad una figlia si effettua un return a 0 e incomincia a contare quando è alto 
-                  // l'albero
-        
-    }
-}
 
-// 7) flip albero
-/// crea una copia dell'albero in input, scambiando i sottoalberi L e R 
-node_t* flip(node_t* root){
-  node_t* n1 = node_new(root->val);
-
-  if (root->L!=NULL){
-    n1->R = flip(root->L);
-  }
-  if (root->R!=NULL){
-    n1->L = flip(root->R);
-  }
-  return n1;
-}
-
+// 6) euler tour
 // costruzione albero in base ai valori stampati dalla visita di eulero
 // la funzione restituisce il puntatore alla radice dell'albero
 // Es. input: 32 74 74 64 76 76 44 44 44 76 64 64 74 32 85 85 2 36 36 36 2 85 85 85 2 85 32
@@ -498,15 +469,15 @@ node_t* build_euler(int n1){
   node_t* nodo = node_new(n1); // inizializzazione nodo con n1
 
 
-  input_visit >> n2; // lettura elemento successivo 
-  if(n1 == n2) ++cnt; // 
+  input_visit >> n2; // lettura elemento successivo
+  if(n1 == n2) ++cnt; //
 
-  if (n1 != n2) { 
+  if (n1 != n2) {
    nodo->L = build_euler(n2); // creazione sottoalbero sinistro
 
   }
 
-  input_visit >> n3; // lettura elemento successivo 
+  input_visit >> n3; // lettura elemento successivo
 
   if(n1 == n3)  ++cnt;
 
@@ -520,10 +491,42 @@ node_t* build_euler(int n1){
   }
 
   if(cnt != 3) {
-    input_visit >> n3; 
+    input_visit >> n3;
   }
 
   return nodo;
+}
+
+
+// 7) flip albero
+/// crea una copia dell'albero in input, scambiando i sottoalberi L e R 
+node_t* flip(node_t* root){
+  node_t* n1 = node_new(root->val);
+
+  if (root->L!=NULL){
+    n1->R = flip(root->L);
+  }
+  if (root->R!=NULL){
+    n1->L = flip(root->R);
+  }
+  return n1;
+}
+
+// 8) height - depth
+int tree_height(node_t* radice) {
+    if (radice){
+        int altezza_sinistra = tree_height(radice->L);
+        int altezza_destra = tree_height(radice->R);
+        if (altezza_sinistra >= altezza_destra)
+            return altezza_sinistra + 1;
+        else
+            return altezza_destra + 1;
+    }
+    else {
+      return 0; // se si arriva ad una figlia si effettua un return a 0 e incomincia a contare quando è alto
+                  // l'albero
+        
+    }
 }
 
 

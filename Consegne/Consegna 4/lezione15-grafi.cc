@@ -5,8 +5,6 @@
 #include <math.h>
 #include <iostream>
 #include <fstream>
-#include <vector>
-#include <array>
 
 using namespace std;
 
@@ -68,9 +66,7 @@ int* V_visitato; // nodo visitato?
 
 //list_t* E;  /// array con le liste di adiacenza per ogni nodo
 list_t** E;  /// array di puntatori a le liste di adiacenza per ogni nodo
-const int n_nodi=5;
-
-int matrice_di_adiacenza[n_nodi][n_nodi] = {};
+int n_nodi;
 
 
 //////////////////////////////////////////////////
@@ -144,20 +140,6 @@ void list_print(list_t *l){
     printf("\n");
   }
   
-}
-
-void stampa_matrice_indice (int matrice_di_adiacenza[n_nodi][n_nodi],int nodo_da_stampare, int* V){
-  printf("Stampa matrice \n");
-
-  for (int i = 0; i < n_nodi; i++)
-  {
-    if (matrice_di_adiacenza[nodo_da_stampare][i] == 1)
-    {
-      printf("%d, ", i);
-    }
-  }
-
-  printf("\n");
 }
 
 
@@ -256,16 +238,24 @@ void DFS(int n){
   if (details)
     printf("Visito il nodo %d (val %d)\n",n,V[n]);
 
+  /// esploro la lista di adiacenza
+  node_t* elem=E[n]->head;
+  while (elem!=NULL){ /// elenco tutti i nodi nella lista
 
-  for (int i = 0; i < n_nodi; i++)
-  {
-    if (matrice_di_adiacenza[n][i] == 1 && !V_visitato[i])
-    {
-      DFS(i);
-      
-    }
+    /// espando arco  n --> elem->val
+    /// quindi DFS(elem->val)
+    output_graph << "dfs_"<< n << " -> dfs_"<< elem->val;
+    if (V_visitato[elem->val])
+      output_graph << "[color=gray, label = \""<< ct_visit++<< "\"]";
+    else
+      output_graph << "[color=red, label = \""<< ct_visit++<< "\"]";
+    output_graph  <<endl;
+    
+    DFS(elem->val);
+
+    
+    elem=elem->next;
   }
-  
   
 }
 
@@ -309,9 +299,6 @@ int parse_cmd(int argc, char **argv){
 int main(int argc, char **argv) {
   int i,test;
 
-
-  
-
   if (parse_cmd(argc,argv))
     return 1;
 
@@ -330,14 +317,7 @@ int main(int argc, char **argv) {
   //int* V; // elenco dei nodi del grafo
   //list_t* E;  /// array con le liste di adiacenza per ogni nodo
   
-
-
-  
-
-  //std::array<std::array<int, n_nodi>, n_nodi> matrice_di_adiacenza;
-
-
-
+  n_nodi=5;
   V= new int[n_nodi]; //(int*)malloc(n_nodi*sizeof(int));
   V_visitato=new int[n_nodi];//(int*)malloc(n_nodi*sizeof(int));
   
@@ -348,24 +328,26 @@ int main(int argc, char **argv) {
     V[i]=2*i;
     V_visitato[i]=0;  // flag = non visitato
 
-    for (int j=0;j<n_nodi;j++){
-    
-    matrice_di_adiacenza[i][j]=1;
+    E[i]=list_new();
 
+    if (i==0)
+      global_ptr_ref=E[i];
+
+    for (int j=0;j<n_nodi;j++){
+      //if (rand()%2==0)
+	list_insert_front( E[i] , j);
     }
     
   }
 
-
-  //graph_print();
+  graph_print();
   
   for (int i=0;i<n_nodi;i++){
 
-    printf("\nSono il nodo di indice %d nell'array\n",i);
+    printf("Sono il nodo di indice %d nell'array\n",i);
     printf("Il valore del nodo e' %d\n",V[i]);
     printf("La lista di adiacenza e'\n");  
-    //list_print(E[i]);
-    stampa_matrice_indice(matrice_di_adiacenza,i, V);
+    list_print(E[i]);
   }
 
 

@@ -81,8 +81,6 @@ void graph_print(){
 }
 
 
-
-
 void stampa_matrice_indice (int n){
 
   printf("Stampa matrice\n");
@@ -99,10 +97,8 @@ void stampa_matrice_indice (int n){
 }
 
 
-
+// Deep first search
 void DFS(int n){
-
-  
 
   if (details)
     printf("DFS: lavoro sul nodo %d (visitato %d)\n",n,V_visitato[n]);
@@ -180,17 +176,6 @@ int main(int argc, char **argv) {
     output_graph << "rankdir=\"LR\""<<endl;;
     //    output_graph << "edge[tailclip=false,arrowtail=dot];"<<endl;    
   }
-
-
-
-  //int* V; // elenco dei nodi del grafo
-  //list_t* E;  /// array con le liste di adiacenza per ogni nodo
-  
-
-
-  
-
-  //std::array<std::array<int, n_nodi>, n_nodi> matrice_di_adiacenza;
 
 
 
