@@ -213,7 +213,6 @@ The algorithm takes a directed graph as input, and produces a partition of the g
 
 The basic idea of the algorithm is this: a depth-first search (DFS) begins from an arbitrary start node (and subsequent depth-first searches are conducted on any nodes that have not yet been found). As usual with depth-first search, the search visits every node of the graph exactly once, declining to revisit any node that has already been visited. Thus, the collection of search trees is a spanning forest of the graph. The strongly connected components will be recovered as certain subtrees of this forest. The roots of these subtrees are called the "roots" of the strongly connected components. Any node of a strongly connected component might serve as a root, if it happens to be the first node of a component that is discovered by search.
 
-Quale implementazione andare ad usare? Esiste la versione a stack e quella a Bookkeeping
 
 Pseudo codice:
 

@@ -98,8 +98,8 @@ void node_print(int n)
 
   output_graph << "node_" << n << "_" << n_operazione << endl;
   output_graph << "[ shape = oval; ";
-  if (V_visitato[n])
-    output_graph << "fillcolor = red; style=filled; ";
+  // if (V_visitato[n])
+  //   output_graph << "fillcolor = red; style=filled; ";
   output_graph << "label = "
                << "\"Idx: " << n << ", val: " << V[n] << " index " << V_visitato[n] << " lowlink " << V_Lowlink[n] <<"\" ];\n";
 
@@ -300,6 +300,9 @@ void stack_print(my_stack *s)
 }
 
 
+// Segnare se ci sono archi di ritorno
+// Se c'è un arco di ritorno c'è un ciclo
+// Se c'è un ciclo c'è una componente connessa
 
 void Scc(int v)
 {
@@ -321,7 +324,7 @@ void Scc(int v)
 
     graph_print();
 
-    
+    /*
     /// espando arco  n --> elem->val
     /// quindi Scc(elem->val)
     output_graph << "Scc_"<< n << " -> Scc_"<< elem->val;
@@ -330,7 +333,7 @@ void Scc(int v)
     else
       output_graph << "[color=red, label = \""<< ct_visit++<< "\"]";
     output_graph  <<endl;
-    
+    */
 
 
     int w = elem->val;
@@ -343,7 +346,7 @@ void Scc(int v)
       else
       {
         if (V_onStack[w] == 1)
-          if (V_Lowlink[v] > V_visitato[w])
+          if (V_Lowlink[v] > V_visitato[w]) // calcolo v.Lowlink => minimo(v.Lowlink, w.Lowlink)
             V_Lowlink[v] = V_visitato[w];
       }
 

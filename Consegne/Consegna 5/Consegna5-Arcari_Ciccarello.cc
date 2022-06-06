@@ -1,4 +1,5 @@
 // Gruppo di lavoro:   Andrea Ciccarello, Jacopo Arcari
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -12,12 +13,12 @@ using namespace std;
 // compilazione: g++ -xc++ Consegna5-Arcari_Ciccarello.cc; ./a.out -graph; neato graph.dot -Tpdf -o graph.pdf; open graph.pdf
 //
 // Obiettivo:
-// 1) Implementazione della consegna 5 con la funzione algoritmo_Dijkstra e una versione modificata
-//  di heap_insert e heap_remove_min
+// 1) grafo con archi pesati
+// 2) implementazione shortest path
 
 #define INFTY 1000000
 
-
+int ct_swap=0;
 int ct_cmp=0;
 int ct_read=0;
 int ct_minori=0;
@@ -40,9 +41,6 @@ ofstream output_graph;
 int n_operazione=0; /// contatore di operazioni per visualizzare i vari step
 
 int ct_visit=0; // contatore durante visita 
-
-
-
 
 //////////////////////////////////////////////////
 /// Definizione della struttura dati lista
@@ -70,7 +68,6 @@ typedef struct list {
 //////////////////////////////////////////////////
 
 int* V; // elenco dei nodi del grafo
-int* V_visitato; // nodo visitato?
 int* V_prev; // nodo precedente dalla visita
 float* V_dist; // distanza da sorgente
 
@@ -96,6 +93,14 @@ int get_address( void* node){
   return (int)((long)node-(long)global_ptr_ref);
 }
 
+/// controllo se il nodo si trova nell'heap
+bool isInMinHeap(int idx){
+  for (int i=0; i<heap_size; i++)
+    if (heap[i]==idx)
+      return true;
+  return false;
+}
+
 void node_print(int n){
 
   /// calcolo massima distanza (eccetto infinito)
@@ -107,7 +112,7 @@ void node_print(int n){
   output_graph << "node_" << n << "_" << n_operazione <<  endl;
   output_graph << "[ shape = oval; ";
 
-  if (V_visitato[n]==1)
+  if (!isInMinHeap(n))
     output_graph << "penwidth = 4; ";
     
   float col=V_dist[n]/max_d; /// distanza in scala 0..1
@@ -218,8 +223,6 @@ void list_insert_front(list_t *l, int elem, float w){
   l->head = new_node;
 
 } 
-
-  
 
 
 
@@ -355,8 +358,7 @@ int heap_remove_min(){
         ct_read++;
         ct_read++;
         int tmp = heap[i]; heap[i]=heap[con_chi_mi_scambio]; heap[con_chi_mi_scambio]=tmp;
-      }
-        
+      }      
     
       i=con_chi_mi_scambio;
       
@@ -368,19 +370,19 @@ int heap_remove_min(){
   return minimo;
 }
 
-void heap_insert(int elem){
+void heap_insert(int idx){
   /// inserisco il nuovo nodo con contenuto elem
   /// nell'ultima posizione dell'array
   /// ovvero continuo a completare il livello corrente
 
   if (details)
-    printf("Inserisco elemento %d in posizione %d\n",elem,heap_size);
+    printf("Inserisco elemento %d in posizione %d\n",idx,heap_size);
   
   if (heap_size<MAX_SIZE){
     int i=heap_size;
     heap_size++;
     
-    heap[i]=elem;
+    heap[i]=idx;
 
     //// sistema relazione con genitori!
 
@@ -410,62 +412,54 @@ void heap_insert(int elem){
 
 
 
-void algoritmo_Dijkstra(int n){
+void decrease_key(int v){
+  /// riordino se necessario il nodo nell'heap altrimenti non faccio nulla
 
-  V_dist[n] = 0;
+  int i;
+  // Cerco l'indice dell'elemento v nell'heap
+  for(i = 0; i < heap_size; i++)
+    if (heap[i] == v)
+      break;
 
-  int q_size = n_nodi; // contatore degli elementi in coda (V_visitato)
+  int p = parent_idx(i);
+  while( p>=0 ){
+    int h_i=heap[i];
+    int h_p=heap[p];
+    if(V_dist[h_i] < V_dist[h_p]) {
+      int tmp=h_i; heap[i]=h_p; heap[p]=tmp; // swap
 
-  while(q_size != 0) {
+      i = p;
+      p = parent_idx(i);
+    } else 
+        break;
+  } 
+ }// decrease_key
+
+
+void Dijkstra(int s){
+
+  V_dist[s] = 0; // distanza del nodo sorgente da se stesso
+
+  while(heap_size > 0) { // finchè la coda non è vuota
 
     //graph_print();
 
-    for (int i = 0; i < n_nodi; i++)
-      heap_insert(i);
-    
-    
-
-    /// trova il minimo in coda
-    float best_dist=INFTY;
-    int best_idx = -1;
-
-    for (int i = 0; i < heap_size; i++)
-    {
-      if(V_visitato[heap[0]] == 0){
-        best_idx = heap[0];
-        best_dist = V_dist[best_idx];
-        break;
-      }
-      else{
-        heap_remove_min();
-      }
-    }
-
-    
-    if(best_idx >= 0){
-      /// estrai dalla coda
-      int u = best_idx;
-      V_visitato[u] = 1;
-      --q_size;
+    int u = heap_remove_min(); // rimuovo il nodo con peso minore
 
       /// esploro la lista di adiacenza
       node_t* elem = E[u]->head;
       while(elem!=NULL){
-
         int v = elem->val; /// arco u --> v
-        if(V_visitato[v] == 0) { // se il nodo raggiunto dall'arco non è stato visitato
-
-          float alt = V_dist[u] + elem->w; // costo per arrivare al nuovo nodo passando per u
-          if(alt < V_dist[v]){ // il percorso sorgente ---> u ---> v migliora io percorso attuale sorgente ---> v
-
+        
+        
+        float alt = V_dist[u] + elem->w; 
+        if(alt < V_dist[v] && V_dist[u] != INFTY) {
             V_dist[v] = alt;
             V_prev[v] = u;
+            decrease_key(v); // log n
           }
-        }
+              
         elem=elem->next;
-      }
-    } else { /// coda non vuota e nodi non raggiungibili ---> finito
-        q_size = 0;
       }
   }
 
@@ -524,7 +518,6 @@ int main(int argc, char **argv) {
 
   //// init nodi
   V= new int[n_nodi]; 
-  V_visitato=new int[n_nodi];
   V_prev=new int[n_nodi];
   V_dist=new float[n_nodi];
   
@@ -534,10 +527,10 @@ int main(int argc, char **argv) {
   // costruzione grafo
   for (int i=0;i<n_nodi;i++){
     V[i]=2*i;
-    V_visitato[i]=0;  // flag = non visitato
-    V_prev[i]=-1;  // non c'e' precedente
-    V_dist[i]=INFTY;  // infinito
-    
+    V_dist[i] = INFTY; // distanza del nodo i da s
+    V_prev[i] = -1; // predecessore di i
+    heap_insert(i); // inserisco i in coda
+
     E[i]=list_new();
 
     if (i==0)
@@ -592,7 +585,7 @@ int main(int argc, char **argv) {
   }
 
 
-  algoritmo_Dijkstra(54);
+  Dijkstra(0);
 
 
   
@@ -602,7 +595,6 @@ int main(int argc, char **argv) {
     output_graph.close();
     cout << " File graph.dot scritto" << endl<< "****** Creare il grafo con: neato graph.dot -Tpdf -o graph.pdf"<<endl;
   }
-
 
 
   return 0;

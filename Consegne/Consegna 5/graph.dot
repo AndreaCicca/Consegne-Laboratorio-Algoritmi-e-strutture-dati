@@ -887,91 +887,85 @@ node_99_0 -> node_89_0 [ label="15", len=1.5 ]
 node_99_0 -> node_98_0 [ label="15", len=1.5 ]
 node_99_0 -> node_88_0 [ label="21.2132", len=2.12132 ]
 node_0_1
-[ shape = oval; fillcolor = "0.0 0.0 0.970711"; style=filled; label = "Idx: 0, dist: 99.8528" ];
+[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 0.5"; style=filled; label = "Idx: 0, dist: 0" ];
 node_0_1 -> node_11_1 [ label="21.2132", len=2.12132 ]
 node_0_1 -> node_1_1 [ label="15", len=1.5 ]
 node_0_1 -> node_10_1 [ label="15", len=1.5 ]
-node_0_1 -> node_11_1 [ color=blue, penwidth=5, len=0.1 ]
 node_1_1
-[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 0.941421"; style=filled; label = "Idx: 1, dist: 93.6396" ];
+[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 0.603553"; style=filled; label = "Idx: 1, dist: 15" ];
 node_1_1 -> node_12_1 [ label="21.2132", len=2.12132 ]
 node_1_1 -> node_2_1 [ label="15", len=1.5 ]
 node_1_1 -> node_11_1 [ label="15", len=1.5 ]
 node_1_1 -> node_10_1 [ label="21.2132", len=2.12132 ]
 node_1_1 -> node_0_1 [ label="15", len=1.5 ]
-node_1_1 -> node_12_1 [ color=blue, penwidth=5, len=0.1 ]
+node_1_1 -> node_0_1 [ color=blue, penwidth=5, len=0.1 ]
 node_2_1
-[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 0.912132"; style=filled; label = "Idx: 2, dist: 87.4264" ];
+[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 0.707107"; style=filled; label = "Idx: 2, dist: 30" ];
 node_2_1 -> node_13_1 [ label="21.2132", len=2.12132 ]
 node_2_1 -> node_3_1 [ label="15", len=1.5 ]
 node_2_1 -> node_12_1 [ label="15", len=1.5 ]
 node_2_1 -> node_11_1 [ label="21.2132", len=2.12132 ]
 node_2_1 -> node_1_1 [ label="15", len=1.5 ]
-node_2_1 -> node_13_1 [ color=blue, penwidth=5, len=0.1 ]
+node_2_1 -> node_1_1 [ color=blue, penwidth=5, len=0.1 ]
 node_3_1
-[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 0.882843"; style=filled; label = "Idx: 3, dist: 81.2132" ];
+[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 0.81066"; style=filled; label = "Idx: 3, dist: 45" ];
 node_3_1 -> node_14_1 [ label="21.2132", len=2.12132 ]
 node_3_1 -> node_4_1 [ label="15", len=1.5 ]
 node_3_1 -> node_13_1 [ label="15", len=1.5 ]
 node_3_1 -> node_12_1 [ label="21.2132", len=2.12132 ]
 node_3_1 -> node_2_1 [ label="15", len=1.5 ]
-node_3_1 -> node_14_1 [ color=blue, penwidth=5, len=0.1 ]
+node_3_1 -> node_2_1 [ color=blue, penwidth=5, len=0.1 ]
 node_4_1
-[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 0.853553"; style=filled; label = "Idx: 4, dist: 75" ];
+[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 1"; style=filled; label = "Idx: 4, dist: 72.4264" ];
 node_4_1 -> node_15_1 [ label="21.2132", len=2.12132 ]
 node_4_1 -> node_5_1 [ label="15", len=1.5 ]
 node_4_1 -> node_14_1 [ label="15", len=1.5 ]
 node_4_1 -> node_13_1 [ label="21.2132", len=2.12132 ]
 node_4_1 -> node_3_1 [ label="15", len=1.5 ]
-node_4_1 -> node_14_1 [ color=blue, penwidth=5, len=0.1 ]
+node_4_1 -> node_13_1 [ color=blue, penwidth=5, len=0.1 ]
 node_5_1
-[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 0.882843"; style=filled; label = "Idx: 5, dist: 81.2132" ];
+[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 6904.06"; style=filled; label = "Idx: 5, dist: INF" ];
 node_5_1 -> node_16_1 [ label="21.2132", len=2.12132 ]
 node_5_1 -> node_6_1 [ label="15", len=1.5 ]
 node_5_1 -> node_15_1 [ label="15", len=1.5 ]
 node_5_1 -> node_14_1 [ label="21.2132", len=2.12132 ]
 node_5_1 -> node_4_1 [ label="15", len=1.5 ]
-node_5_1 -> node_14_1 [ color=blue, penwidth=5, len=0.1 ]
 node_6_1
-[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 0.912132"; style=filled; label = "Idx: 6, dist: 87.4264" ];
+[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 6904.06"; style=filled; label = "Idx: 6, dist: INF" ];
 node_6_1 -> node_17_1 [ label="21.2132", len=2.12132 ]
 node_6_1 -> node_7_1 [ label="15", len=1.5 ]
 node_6_1 -> node_16_1 [ label="15", len=1.5 ]
 node_6_1 -> node_15_1 [ label="21.2132", len=2.12132 ]
 node_6_1 -> node_5_1 [ label="15", len=1.5 ]
-node_6_1 -> node_15_1 [ color=blue, penwidth=5, len=0.1 ]
 node_7_1
-[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 0.941421"; style=filled; label = "Idx: 7, dist: 93.6396" ];
+[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 6904.06"; style=filled; label = "Idx: 7, dist: INF" ];
 node_7_1 -> node_18_1 [ label="21.2132", len=2.12132 ]
 node_7_1 -> node_8_1 [ label="15", len=1.5 ]
 node_7_1 -> node_17_1 [ label="15", len=1.5 ]
 node_7_1 -> node_16_1 [ label="21.2132", len=2.12132 ]
 node_7_1 -> node_6_1 [ label="15", len=1.5 ]
-node_7_1 -> node_16_1 [ color=blue, penwidth=5, len=0.1 ]
 node_8_1
-[ shape = oval; fillcolor = "0.0 0.0 0.970711"; style=filled; label = "Idx: 8, dist: 99.8528" ];
+[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 6904.06"; style=filled; label = "Idx: 8, dist: INF" ];
 node_8_1 -> node_19_1 [ label="21.2132", len=2.12132 ]
 node_8_1 -> node_9_1 [ label="15", len=1.5 ]
 node_8_1 -> node_18_1 [ label="15", len=1.5 ]
 node_8_1 -> node_17_1 [ label="21.2132", len=2.12132 ]
 node_8_1 -> node_7_1 [ label="15", len=1.5 ]
-node_8_1 -> node_17_1 [ color=blue, penwidth=5, len=0.1 ]
 node_9_1
-[ shape = oval; fillcolor = "0.0 0.0 1"; style=filled; label = "Idx: 9, dist: 106.066" ];
+[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 6904.06"; style=filled; label = "Idx: 9, dist: INF" ];
 node_9_1 -> node_19_1 [ label="15", len=1.5 ]
 node_9_1 -> node_18_1 [ label="21.2132", len=2.12132 ]
 node_9_1 -> node_8_1 [ label="15", len=1.5 ]
-node_9_1 -> node_18_1 [ color=blue, penwidth=5, len=0.1 ]
 node_10_1
-[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 0.9"; style=filled; label = "Idx: 10, dist: 84.8528" ];
+[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 0.603553"; style=filled; label = "Idx: 10, dist: 15" ];
 node_10_1 -> node_21_1 [ label="21.2132", len=2.12132 ]
 node_10_1 -> node_11_1 [ label="15", len=1.5 ]
 node_10_1 -> node_1_1 [ label="21.2132", len=2.12132 ]
 node_10_1 -> node_20_1 [ label="15", len=1.5 ]
 node_10_1 -> node_0_1 [ label="15", len=1.5 ]
-node_10_1 -> node_21_1 [ color=blue, penwidth=5, len=0.1 ]
+node_10_1 -> node_0_1 [ color=blue, penwidth=5, len=0.1 ]
 node_11_1
-[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 0.870711"; style=filled; label = "Idx: 11, dist: 78.6396" ];
+[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 0.646447"; style=filled; label = "Idx: 11, dist: 21.2132" ];
 node_11_1 -> node_22_1 [ label="21.2132", len=2.12132 ]
 node_11_1 -> node_12_1 [ label="15", len=1.5 ]
 node_11_1 -> node_2_1 [ label="21.2132", len=2.12132 ]
@@ -980,9 +974,9 @@ node_11_1 -> node_1_1 [ label="15", len=1.5 ]
 node_11_1 -> node_20_1 [ label="21.2132", len=2.12132 ]
 node_11_1 -> node_10_1 [ label="15", len=1.5 ]
 node_11_1 -> node_0_1 [ label="21.2132", len=2.12132 ]
-node_11_1 -> node_22_1 [ color=blue, penwidth=5, len=0.1 ]
+node_11_1 -> node_0_1 [ color=blue, penwidth=5, len=0.1 ]
 node_12_1
-[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 0.841421"; style=filled; label = "Idx: 12, dist: 72.4264" ];
+[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 0.75"; style=filled; label = "Idx: 12, dist: 36.2132" ];
 node_12_1 -> node_23_1 [ label="21.2132", len=2.12132 ]
 node_12_1 -> node_13_1 [ label="15", len=1.5 ]
 node_12_1 -> node_3_1 [ label="21.2132", len=2.12132 ]
@@ -991,9 +985,9 @@ node_12_1 -> node_2_1 [ label="15", len=1.5 ]
 node_12_1 -> node_21_1 [ label="21.2132", len=2.12132 ]
 node_12_1 -> node_11_1 [ label="15", len=1.5 ]
 node_12_1 -> node_1_1 [ label="21.2132", len=2.12132 ]
-node_12_1 -> node_23_1 [ color=blue, penwidth=5, len=0.1 ]
+node_12_1 -> node_1_1 [ color=blue, penwidth=5, len=0.1 ]
 node_13_1
-[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 0.812132"; style=filled; label = "Idx: 13, dist: 66.2132" ];
+[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 0.853553"; style=filled; label = "Idx: 13, dist: 51.2132" ];
 node_13_1 -> node_24_1 [ label="21.2132", len=2.12132 ]
 node_13_1 -> node_14_1 [ label="15", len=1.5 ]
 node_13_1 -> node_4_1 [ label="21.2132", len=2.12132 ]
@@ -1002,9 +996,9 @@ node_13_1 -> node_3_1 [ label="15", len=1.5 ]
 node_13_1 -> node_22_1 [ label="21.2132", len=2.12132 ]
 node_13_1 -> node_12_1 [ label="15", len=1.5 ]
 node_13_1 -> node_2_1 [ label="21.2132", len=2.12132 ]
-node_13_1 -> node_24_1 [ color=blue, penwidth=5, len=0.1 ]
+node_13_1 -> node_2_1 [ color=blue, penwidth=5, len=0.1 ]
 node_14_1
-[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 0.782843"; style=filled; label = "Idx: 14, dist: 60" ];
+[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 6904.06"; style=filled; label = "Idx: 14, dist: INF" ];
 node_14_1 -> node_25_1 [ label="21.2132", len=2.12132 ]
 node_14_1 -> node_15_1 [ label="15", len=1.5 ]
 node_14_1 -> node_5_1 [ label="21.2132", len=2.12132 ]
@@ -1013,9 +1007,8 @@ node_14_1 -> node_4_1 [ label="15", len=1.5 ]
 node_14_1 -> node_23_1 [ label="21.2132", len=2.12132 ]
 node_14_1 -> node_13_1 [ label="15", len=1.5 ]
 node_14_1 -> node_3_1 [ label="21.2132", len=2.12132 ]
-node_14_1 -> node_24_1 [ color=blue, penwidth=5, len=0.1 ]
 node_15_1
-[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 0.812132"; style=filled; label = "Idx: 15, dist: 66.2132" ];
+[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 6904.06"; style=filled; label = "Idx: 15, dist: INF" ];
 node_15_1 -> node_26_1 [ label="21.2132", len=2.12132 ]
 node_15_1 -> node_16_1 [ label="15", len=1.5 ]
 node_15_1 -> node_6_1 [ label="21.2132", len=2.12132 ]
@@ -1024,9 +1017,8 @@ node_15_1 -> node_5_1 [ label="15", len=1.5 ]
 node_15_1 -> node_24_1 [ label="21.2132", len=2.12132 ]
 node_15_1 -> node_14_1 [ label="15", len=1.5 ]
 node_15_1 -> node_4_1 [ label="21.2132", len=2.12132 ]
-node_15_1 -> node_24_1 [ color=blue, penwidth=5, len=0.1 ]
 node_16_1
-[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 0.841421"; style=filled; label = "Idx: 16, dist: 72.4264" ];
+[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 6904.06"; style=filled; label = "Idx: 16, dist: INF" ];
 node_16_1 -> node_27_1 [ label="21.2132", len=2.12132 ]
 node_16_1 -> node_17_1 [ label="15", len=1.5 ]
 node_16_1 -> node_7_1 [ label="21.2132", len=2.12132 ]
@@ -1035,9 +1027,8 @@ node_16_1 -> node_6_1 [ label="15", len=1.5 ]
 node_16_1 -> node_25_1 [ label="21.2132", len=2.12132 ]
 node_16_1 -> node_15_1 [ label="15", len=1.5 ]
 node_16_1 -> node_5_1 [ label="21.2132", len=2.12132 ]
-node_16_1 -> node_25_1 [ color=blue, penwidth=5, len=0.1 ]
 node_17_1
-[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 0.870711"; style=filled; label = "Idx: 17, dist: 78.6396" ];
+[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 6904.06"; style=filled; label = "Idx: 17, dist: INF" ];
 node_17_1 -> node_28_1 [ label="21.2132", len=2.12132 ]
 node_17_1 -> node_18_1 [ label="15", len=1.5 ]
 node_17_1 -> node_8_1 [ label="21.2132", len=2.12132 ]
@@ -1046,9 +1037,8 @@ node_17_1 -> node_7_1 [ label="15", len=1.5 ]
 node_17_1 -> node_26_1 [ label="21.2132", len=2.12132 ]
 node_17_1 -> node_16_1 [ label="15", len=1.5 ]
 node_17_1 -> node_6_1 [ label="21.2132", len=2.12132 ]
-node_17_1 -> node_26_1 [ color=blue, penwidth=5, len=0.1 ]
 node_18_1
-[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 0.9"; style=filled; label = "Idx: 18, dist: 84.8528" ];
+[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 6904.06"; style=filled; label = "Idx: 18, dist: INF" ];
 node_18_1 -> node_29_1 [ label="21.2132", len=2.12132 ]
 node_18_1 -> node_19_1 [ label="15", len=1.5 ]
 node_18_1 -> node_9_1 [ label="21.2132", len=2.12132 ]
@@ -1057,25 +1047,22 @@ node_18_1 -> node_8_1 [ label="15", len=1.5 ]
 node_18_1 -> node_27_1 [ label="21.2132", len=2.12132 ]
 node_18_1 -> node_17_1 [ label="15", len=1.5 ]
 node_18_1 -> node_7_1 [ label="21.2132", len=2.12132 ]
-node_18_1 -> node_27_1 [ color=blue, penwidth=5, len=0.1 ]
 node_19_1
-[ shape = oval; fillcolor = "0.0 0.0 0.970711"; style=filled; label = "Idx: 19, dist: 99.8528" ];
+[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 6904.06"; style=filled; label = "Idx: 19, dist: INF" ];
 node_19_1 -> node_29_1 [ label="15", len=1.5 ]
 node_19_1 -> node_9_1 [ label="15", len=1.5 ]
 node_19_1 -> node_28_1 [ label="21.2132", len=2.12132 ]
 node_19_1 -> node_18_1 [ label="15", len=1.5 ]
 node_19_1 -> node_8_1 [ label="21.2132", len=2.12132 ]
-node_19_1 -> node_28_1 [ color=blue, penwidth=5, len=0.1 ]
 node_20_1
-[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 0.870711"; style=filled; label = "Idx: 20, dist: 78.6396" ];
+[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 6904.06"; style=filled; label = "Idx: 20, dist: INF" ];
 node_20_1 -> node_31_1 [ label="21.2132", len=2.12132 ]
 node_20_1 -> node_21_1 [ label="15", len=1.5 ]
 node_20_1 -> node_11_1 [ label="21.2132", len=2.12132 ]
 node_20_1 -> node_30_1 [ label="15", len=1.5 ]
 node_20_1 -> node_10_1 [ label="15", len=1.5 ]
-node_20_1 -> node_31_1 [ color=blue, penwidth=5, len=0.1 ]
 node_21_1
-[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 0.8"; style=filled; label = "Idx: 21, dist: 63.6396" ];
+[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 6904.06"; style=filled; label = "Idx: 21, dist: INF" ];
 node_21_1 -> node_32_1 [ label="21.2132", len=2.12132 ]
 node_21_1 -> node_22_1 [ label="15", len=1.5 ]
 node_21_1 -> node_12_1 [ label="21.2132", len=2.12132 ]
@@ -1084,9 +1071,8 @@ node_21_1 -> node_11_1 [ label="15", len=1.5 ]
 node_21_1 -> node_30_1 [ label="21.2132", len=2.12132 ]
 node_21_1 -> node_20_1 [ label="15", len=1.5 ]
 node_21_1 -> node_10_1 [ label="21.2132", len=2.12132 ]
-node_21_1 -> node_32_1 [ color=blue, penwidth=5, len=0.1 ]
 node_22_1
-[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 0.770711"; style=filled; label = "Idx: 22, dist: 57.4264" ];
+[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 6904.06"; style=filled; label = "Idx: 22, dist: INF" ];
 node_22_1 -> node_33_1 [ label="21.2132", len=2.12132 ]
 node_22_1 -> node_23_1 [ label="15", len=1.5 ]
 node_22_1 -> node_13_1 [ label="21.2132", len=2.12132 ]
@@ -1095,9 +1081,8 @@ node_22_1 -> node_12_1 [ label="15", len=1.5 ]
 node_22_1 -> node_31_1 [ label="21.2132", len=2.12132 ]
 node_22_1 -> node_21_1 [ label="15", len=1.5 ]
 node_22_1 -> node_11_1 [ label="21.2132", len=2.12132 ]
-node_22_1 -> node_33_1 [ color=blue, penwidth=5, len=0.1 ]
 node_23_1
-[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 0.741421"; style=filled; label = "Idx: 23, dist: 51.2132" ];
+[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 6904.06"; style=filled; label = "Idx: 23, dist: INF" ];
 node_23_1 -> node_34_1 [ label="21.2132", len=2.12132 ]
 node_23_1 -> node_24_1 [ label="15", len=1.5 ]
 node_23_1 -> node_14_1 [ label="21.2132", len=2.12132 ]
@@ -1106,9 +1091,8 @@ node_23_1 -> node_13_1 [ label="15", len=1.5 ]
 node_23_1 -> node_32_1 [ label="21.2132", len=2.12132 ]
 node_23_1 -> node_22_1 [ label="15", len=1.5 ]
 node_23_1 -> node_12_1 [ label="21.2132", len=2.12132 ]
-node_23_1 -> node_34_1 [ color=blue, penwidth=5, len=0.1 ]
 node_24_1
-[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 0.712132"; style=filled; label = "Idx: 24, dist: 45" ];
+[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 6904.06"; style=filled; label = "Idx: 24, dist: INF" ];
 node_24_1 -> node_35_1 [ label="21.2132", len=2.12132 ]
 node_24_1 -> node_25_1 [ label="15", len=1.5 ]
 node_24_1 -> node_15_1 [ label="21.2132", len=2.12132 ]
@@ -1117,9 +1101,8 @@ node_24_1 -> node_14_1 [ label="15", len=1.5 ]
 node_24_1 -> node_33_1 [ label="21.2132", len=2.12132 ]
 node_24_1 -> node_23_1 [ label="15", len=1.5 ]
 node_24_1 -> node_13_1 [ label="21.2132", len=2.12132 ]
-node_24_1 -> node_34_1 [ color=blue, penwidth=5, len=0.1 ]
 node_25_1
-[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 0.741421"; style=filled; label = "Idx: 25, dist: 51.2132" ];
+[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 6904.06"; style=filled; label = "Idx: 25, dist: INF" ];
 node_25_1 -> node_36_1 [ label="21.2132", len=2.12132 ]
 node_25_1 -> node_26_1 [ label="15", len=1.5 ]
 node_25_1 -> node_16_1 [ label="21.2132", len=2.12132 ]
@@ -1128,9 +1111,8 @@ node_25_1 -> node_15_1 [ label="15", len=1.5 ]
 node_25_1 -> node_34_1 [ label="21.2132", len=2.12132 ]
 node_25_1 -> node_24_1 [ label="15", len=1.5 ]
 node_25_1 -> node_14_1 [ label="21.2132", len=2.12132 ]
-node_25_1 -> node_34_1 [ color=blue, penwidth=5, len=0.1 ]
 node_26_1
-[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 0.770711"; style=filled; label = "Idx: 26, dist: 57.4264" ];
+[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 6904.06"; style=filled; label = "Idx: 26, dist: INF" ];
 node_26_1 -> node_37_1 [ label="21.2132", len=2.12132 ]
 node_26_1 -> node_27_1 [ label="15", len=1.5 ]
 node_26_1 -> node_17_1 [ label="21.2132", len=2.12132 ]
@@ -1139,9 +1121,8 @@ node_26_1 -> node_16_1 [ label="15", len=1.5 ]
 node_26_1 -> node_35_1 [ label="21.2132", len=2.12132 ]
 node_26_1 -> node_25_1 [ label="15", len=1.5 ]
 node_26_1 -> node_15_1 [ label="21.2132", len=2.12132 ]
-node_26_1 -> node_35_1 [ color=blue, penwidth=5, len=0.1 ]
 node_27_1
-[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 0.8"; style=filled; label = "Idx: 27, dist: 63.6396" ];
+[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 6904.06"; style=filled; label = "Idx: 27, dist: INF" ];
 node_27_1 -> node_38_1 [ label="21.2132", len=2.12132 ]
 node_27_1 -> node_28_1 [ label="15", len=1.5 ]
 node_27_1 -> node_18_1 [ label="21.2132", len=2.12132 ]
@@ -1150,9 +1131,8 @@ node_27_1 -> node_17_1 [ label="15", len=1.5 ]
 node_27_1 -> node_36_1 [ label="21.2132", len=2.12132 ]
 node_27_1 -> node_26_1 [ label="15", len=1.5 ]
 node_27_1 -> node_16_1 [ label="21.2132", len=2.12132 ]
-node_27_1 -> node_36_1 [ color=blue, penwidth=5, len=0.1 ]
 node_28_1
-[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 0.870711"; style=filled; label = "Idx: 28, dist: 78.6396" ];
+[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 6904.06"; style=filled; label = "Idx: 28, dist: INF" ];
 node_28_1 -> node_39_1 [ label="21.2132", len=2.12132 ]
 node_28_1 -> node_29_1 [ label="15", len=1.5 ]
 node_28_1 -> node_19_1 [ label="21.2132", len=2.12132 ]
@@ -1161,25 +1141,22 @@ node_28_1 -> node_18_1 [ label="15", len=1.5 ]
 node_28_1 -> node_37_1 [ label="21.2132", len=2.12132 ]
 node_28_1 -> node_27_1 [ label="15", len=1.5 ]
 node_28_1 -> node_17_1 [ label="21.2132", len=2.12132 ]
-node_28_1 -> node_37_1 [ color=blue, penwidth=5, len=0.1 ]
 node_29_1
-[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 0.941421"; style=filled; label = "Idx: 29, dist: 93.6396" ];
+[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 6904.06"; style=filled; label = "Idx: 29, dist: INF" ];
 node_29_1 -> node_39_1 [ label="15", len=1.5 ]
 node_29_1 -> node_19_1 [ label="15", len=1.5 ]
 node_29_1 -> node_38_1 [ label="21.2132", len=2.12132 ]
 node_29_1 -> node_28_1 [ label="15", len=1.5 ]
 node_29_1 -> node_18_1 [ label="21.2132", len=2.12132 ]
-node_29_1 -> node_38_1 [ color=blue, penwidth=5, len=0.1 ]
 node_30_1
-[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 0.841421"; style=filled; label = "Idx: 30, dist: 72.4264" ];
+[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 6904.06"; style=filled; label = "Idx: 30, dist: INF" ];
 node_30_1 -> node_41_1 [ label="21.2132", len=2.12132 ]
 node_30_1 -> node_31_1 [ label="15", len=1.5 ]
 node_30_1 -> node_21_1 [ label="21.2132", len=2.12132 ]
 node_30_1 -> node_40_1 [ label="15", len=1.5 ]
 node_30_1 -> node_20_1 [ label="15", len=1.5 ]
-node_30_1 -> node_41_1 [ color=blue, penwidth=5, len=0.1 ]
 node_31_1
-[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 0.770711"; style=filled; label = "Idx: 31, dist: 57.4264" ];
+[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 6904.06"; style=filled; label = "Idx: 31, dist: INF" ];
 node_31_1 -> node_42_1 [ label="21.2132", len=2.12132 ]
 node_31_1 -> node_32_1 [ label="15", len=1.5 ]
 node_31_1 -> node_22_1 [ label="21.2132", len=2.12132 ]
@@ -1188,9 +1165,8 @@ node_31_1 -> node_21_1 [ label="15", len=1.5 ]
 node_31_1 -> node_40_1 [ label="21.2132", len=2.12132 ]
 node_31_1 -> node_30_1 [ label="15", len=1.5 ]
 node_31_1 -> node_20_1 [ label="21.2132", len=2.12132 ]
-node_31_1 -> node_42_1 [ color=blue, penwidth=5, len=0.1 ]
 node_32_1
-[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 0.7"; style=filled; label = "Idx: 32, dist: 42.4264" ];
+[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 6904.06"; style=filled; label = "Idx: 32, dist: INF" ];
 node_32_1 -> node_43_1 [ label="21.2132", len=2.12132 ]
 node_32_1 -> node_33_1 [ label="15", len=1.5 ]
 node_32_1 -> node_23_1 [ label="21.2132", len=2.12132 ]
@@ -1199,9 +1175,8 @@ node_32_1 -> node_22_1 [ label="15", len=1.5 ]
 node_32_1 -> node_41_1 [ label="21.2132", len=2.12132 ]
 node_32_1 -> node_31_1 [ label="15", len=1.5 ]
 node_32_1 -> node_21_1 [ label="21.2132", len=2.12132 ]
-node_32_1 -> node_43_1 [ color=blue, penwidth=5, len=0.1 ]
 node_33_1
-[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 0.670711"; style=filled; label = "Idx: 33, dist: 36.2132" ];
+[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 6904.06"; style=filled; label = "Idx: 33, dist: INF" ];
 node_33_1 -> node_44_1 [ label="21.2132", len=2.12132 ]
 node_33_1 -> node_34_1 [ label="15", len=1.5 ]
 node_33_1 -> node_24_1 [ label="21.2132", len=2.12132 ]
@@ -1210,9 +1185,8 @@ node_33_1 -> node_23_1 [ label="15", len=1.5 ]
 node_33_1 -> node_42_1 [ label="21.2132", len=2.12132 ]
 node_33_1 -> node_32_1 [ label="15", len=1.5 ]
 node_33_1 -> node_22_1 [ label="21.2132", len=2.12132 ]
-node_33_1 -> node_44_1 [ color=blue, penwidth=5, len=0.1 ]
 node_34_1
-[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 0.641421"; style=filled; label = "Idx: 34, dist: 30" ];
+[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 6904.06"; style=filled; label = "Idx: 34, dist: INF" ];
 node_34_1 -> node_45_1 [ label="21.2132", len=2.12132 ]
 node_34_1 -> node_35_1 [ label="15", len=1.5 ]
 node_34_1 -> node_25_1 [ label="21.2132", len=2.12132 ]
@@ -1221,9 +1195,8 @@ node_34_1 -> node_24_1 [ label="15", len=1.5 ]
 node_34_1 -> node_43_1 [ label="21.2132", len=2.12132 ]
 node_34_1 -> node_33_1 [ label="15", len=1.5 ]
 node_34_1 -> node_23_1 [ label="21.2132", len=2.12132 ]
-node_34_1 -> node_44_1 [ color=blue, penwidth=5, len=0.1 ]
 node_35_1
-[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 0.670711"; style=filled; label = "Idx: 35, dist: 36.2132" ];
+[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 6904.06"; style=filled; label = "Idx: 35, dist: INF" ];
 node_35_1 -> node_46_1 [ label="21.2132", len=2.12132 ]
 node_35_1 -> node_36_1 [ label="15", len=1.5 ]
 node_35_1 -> node_26_1 [ label="21.2132", len=2.12132 ]
@@ -1232,9 +1205,8 @@ node_35_1 -> node_25_1 [ label="15", len=1.5 ]
 node_35_1 -> node_44_1 [ label="21.2132", len=2.12132 ]
 node_35_1 -> node_34_1 [ label="15", len=1.5 ]
 node_35_1 -> node_24_1 [ label="21.2132", len=2.12132 ]
-node_35_1 -> node_44_1 [ color=blue, penwidth=5, len=0.1 ]
 node_36_1
-[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 0.7"; style=filled; label = "Idx: 36, dist: 42.4264" ];
+[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 6904.06"; style=filled; label = "Idx: 36, dist: INF" ];
 node_36_1 -> node_47_1 [ label="21.2132", len=2.12132 ]
 node_36_1 -> node_37_1 [ label="15", len=1.5 ]
 node_36_1 -> node_27_1 [ label="21.2132", len=2.12132 ]
@@ -1243,9 +1215,8 @@ node_36_1 -> node_26_1 [ label="15", len=1.5 ]
 node_36_1 -> node_45_1 [ label="21.2132", len=2.12132 ]
 node_36_1 -> node_35_1 [ label="15", len=1.5 ]
 node_36_1 -> node_25_1 [ label="21.2132", len=2.12132 ]
-node_36_1 -> node_45_1 [ color=blue, penwidth=5, len=0.1 ]
 node_37_1
-[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 0.770711"; style=filled; label = "Idx: 37, dist: 57.4264" ];
+[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 6904.06"; style=filled; label = "Idx: 37, dist: INF" ];
 node_37_1 -> node_48_1 [ label="21.2132", len=2.12132 ]
 node_37_1 -> node_38_1 [ label="15", len=1.5 ]
 node_37_1 -> node_28_1 [ label="21.2132", len=2.12132 ]
@@ -1254,9 +1225,8 @@ node_37_1 -> node_27_1 [ label="15", len=1.5 ]
 node_37_1 -> node_46_1 [ label="21.2132", len=2.12132 ]
 node_37_1 -> node_36_1 [ label="15", len=1.5 ]
 node_37_1 -> node_26_1 [ label="21.2132", len=2.12132 ]
-node_37_1 -> node_46_1 [ color=blue, penwidth=5, len=0.1 ]
 node_38_1
-[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 0.841421"; style=filled; label = "Idx: 38, dist: 72.4264" ];
+[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 6904.06"; style=filled; label = "Idx: 38, dist: INF" ];
 node_38_1 -> node_49_1 [ label="21.2132", len=2.12132 ]
 node_38_1 -> node_39_1 [ label="15", len=1.5 ]
 node_38_1 -> node_29_1 [ label="21.2132", len=2.12132 ]
@@ -1265,25 +1235,22 @@ node_38_1 -> node_28_1 [ label="15", len=1.5 ]
 node_38_1 -> node_47_1 [ label="21.2132", len=2.12132 ]
 node_38_1 -> node_37_1 [ label="15", len=1.5 ]
 node_38_1 -> node_27_1 [ label="21.2132", len=2.12132 ]
-node_38_1 -> node_47_1 [ color=blue, penwidth=5, len=0.1 ]
 node_39_1
-[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 0.912132"; style=filled; label = "Idx: 39, dist: 87.4264" ];
+[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 6904.06"; style=filled; label = "Idx: 39, dist: INF" ];
 node_39_1 -> node_49_1 [ label="15", len=1.5 ]
 node_39_1 -> node_29_1 [ label="15", len=1.5 ]
 node_39_1 -> node_48_1 [ label="21.2132", len=2.12132 ]
 node_39_1 -> node_38_1 [ label="15", len=1.5 ]
 node_39_1 -> node_28_1 [ label="21.2132", len=2.12132 ]
-node_39_1 -> node_48_1 [ color=blue, penwidth=5, len=0.1 ]
 node_40_1
-[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 0.812132"; style=filled; label = "Idx: 40, dist: 66.2132" ];
+[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 6904.06"; style=filled; label = "Idx: 40, dist: INF" ];
 node_40_1 -> node_51_1 [ label="21.2132", len=2.12132 ]
 node_40_1 -> node_41_1 [ label="15", len=1.5 ]
 node_40_1 -> node_31_1 [ label="21.2132", len=2.12132 ]
 node_40_1 -> node_50_1 [ label="15", len=1.5 ]
 node_40_1 -> node_30_1 [ label="15", len=1.5 ]
-node_40_1 -> node_51_1 [ color=blue, penwidth=5, len=0.1 ]
 node_41_1
-[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 0.741421"; style=filled; label = "Idx: 41, dist: 51.2132" ];
+[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 6904.06"; style=filled; label = "Idx: 41, dist: INF" ];
 node_41_1 -> node_52_1 [ label="21.2132", len=2.12132 ]
 node_41_1 -> node_42_1 [ label="15", len=1.5 ]
 node_41_1 -> node_32_1 [ label="21.2132", len=2.12132 ]
@@ -1292,9 +1259,8 @@ node_41_1 -> node_31_1 [ label="15", len=1.5 ]
 node_41_1 -> node_50_1 [ label="21.2132", len=2.12132 ]
 node_41_1 -> node_40_1 [ label="15", len=1.5 ]
 node_41_1 -> node_30_1 [ label="21.2132", len=2.12132 ]
-node_41_1 -> node_52_1 [ color=blue, penwidth=5, len=0.1 ]
 node_42_1
-[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 0.670711"; style=filled; label = "Idx: 42, dist: 36.2132" ];
+[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 6904.06"; style=filled; label = "Idx: 42, dist: INF" ];
 node_42_1 -> node_53_1 [ label="21.2132", len=2.12132 ]
 node_42_1 -> node_43_1 [ label="15", len=1.5 ]
 node_42_1 -> node_33_1 [ label="21.2132", len=2.12132 ]
@@ -1303,9 +1269,8 @@ node_42_1 -> node_32_1 [ label="15", len=1.5 ]
 node_42_1 -> node_51_1 [ label="21.2132", len=2.12132 ]
 node_42_1 -> node_41_1 [ label="15", len=1.5 ]
 node_42_1 -> node_31_1 [ label="21.2132", len=2.12132 ]
-node_42_1 -> node_53_1 [ color=blue, penwidth=5, len=0.1 ]
 node_43_1
-[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 0.6"; style=filled; label = "Idx: 43, dist: 21.2132" ];
+[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 6904.06"; style=filled; label = "Idx: 43, dist: INF" ];
 node_43_1 -> node_54_1 [ label="21.2132", len=2.12132 ]
 node_43_1 -> node_44_1 [ label="15", len=1.5 ]
 node_43_1 -> node_34_1 [ label="21.2132", len=2.12132 ]
@@ -1314,9 +1279,8 @@ node_43_1 -> node_33_1 [ label="15", len=1.5 ]
 node_43_1 -> node_52_1 [ label="21.2132", len=2.12132 ]
 node_43_1 -> node_42_1 [ label="15", len=1.5 ]
 node_43_1 -> node_32_1 [ label="21.2132", len=2.12132 ]
-node_43_1 -> node_54_1 [ color=blue, penwidth=5, len=0.1 ]
 node_44_1
-[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 0.570711"; style=filled; label = "Idx: 44, dist: 15" ];
+[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 6904.06"; style=filled; label = "Idx: 44, dist: INF" ];
 node_44_1 -> node_55_1 [ label="21.2132", len=2.12132 ]
 node_44_1 -> node_45_1 [ label="15", len=1.5 ]
 node_44_1 -> node_35_1 [ label="21.2132", len=2.12132 ]
@@ -1325,9 +1289,8 @@ node_44_1 -> node_34_1 [ label="15", len=1.5 ]
 node_44_1 -> node_53_1 [ label="21.2132", len=2.12132 ]
 node_44_1 -> node_43_1 [ label="15", len=1.5 ]
 node_44_1 -> node_33_1 [ label="21.2132", len=2.12132 ]
-node_44_1 -> node_54_1 [ color=blue, penwidth=5, len=0.1 ]
 node_45_1
-[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 0.6"; style=filled; label = "Idx: 45, dist: 21.2132" ];
+[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 6904.06"; style=filled; label = "Idx: 45, dist: INF" ];
 node_45_1 -> node_56_1 [ label="21.2132", len=2.12132 ]
 node_45_1 -> node_46_1 [ label="15", len=1.5 ]
 node_45_1 -> node_36_1 [ label="21.2132", len=2.12132 ]
@@ -1336,9 +1299,8 @@ node_45_1 -> node_35_1 [ label="15", len=1.5 ]
 node_45_1 -> node_54_1 [ label="21.2132", len=2.12132 ]
 node_45_1 -> node_44_1 [ label="15", len=1.5 ]
 node_45_1 -> node_34_1 [ label="21.2132", len=2.12132 ]
-node_45_1 -> node_54_1 [ color=blue, penwidth=5, len=0.1 ]
 node_46_1
-[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 0.670711"; style=filled; label = "Idx: 46, dist: 36.2132" ];
+[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 6904.06"; style=filled; label = "Idx: 46, dist: INF" ];
 node_46_1 -> node_57_1 [ label="21.2132", len=2.12132 ]
 node_46_1 -> node_47_1 [ label="15", len=1.5 ]
 node_46_1 -> node_37_1 [ label="21.2132", len=2.12132 ]
@@ -1347,9 +1309,8 @@ node_46_1 -> node_36_1 [ label="15", len=1.5 ]
 node_46_1 -> node_55_1 [ label="21.2132", len=2.12132 ]
 node_46_1 -> node_45_1 [ label="15", len=1.5 ]
 node_46_1 -> node_35_1 [ label="21.2132", len=2.12132 ]
-node_46_1 -> node_55_1 [ color=blue, penwidth=5, len=0.1 ]
 node_47_1
-[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 0.741421"; style=filled; label = "Idx: 47, dist: 51.2132" ];
+[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 6904.06"; style=filled; label = "Idx: 47, dist: INF" ];
 node_47_1 -> node_58_1 [ label="21.2132", len=2.12132 ]
 node_47_1 -> node_48_1 [ label="15", len=1.5 ]
 node_47_1 -> node_38_1 [ label="21.2132", len=2.12132 ]
@@ -1358,9 +1319,8 @@ node_47_1 -> node_37_1 [ label="15", len=1.5 ]
 node_47_1 -> node_56_1 [ label="21.2132", len=2.12132 ]
 node_47_1 -> node_46_1 [ label="15", len=1.5 ]
 node_47_1 -> node_36_1 [ label="21.2132", len=2.12132 ]
-node_47_1 -> node_56_1 [ color=blue, penwidth=5, len=0.1 ]
 node_48_1
-[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 0.812132"; style=filled; label = "Idx: 48, dist: 66.2132" ];
+[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 6904.06"; style=filled; label = "Idx: 48, dist: INF" ];
 node_48_1 -> node_59_1 [ label="21.2132", len=2.12132 ]
 node_48_1 -> node_49_1 [ label="15", len=1.5 ]
 node_48_1 -> node_39_1 [ label="21.2132", len=2.12132 ]
@@ -1369,25 +1329,22 @@ node_48_1 -> node_38_1 [ label="15", len=1.5 ]
 node_48_1 -> node_57_1 [ label="21.2132", len=2.12132 ]
 node_48_1 -> node_47_1 [ label="15", len=1.5 ]
 node_48_1 -> node_37_1 [ label="21.2132", len=2.12132 ]
-node_48_1 -> node_57_1 [ color=blue, penwidth=5, len=0.1 ]
 node_49_1
-[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 0.882843"; style=filled; label = "Idx: 49, dist: 81.2132" ];
+[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 6904.06"; style=filled; label = "Idx: 49, dist: INF" ];
 node_49_1 -> node_59_1 [ label="15", len=1.5 ]
 node_49_1 -> node_39_1 [ label="15", len=1.5 ]
 node_49_1 -> node_58_1 [ label="21.2132", len=2.12132 ]
 node_49_1 -> node_48_1 [ label="15", len=1.5 ]
 node_49_1 -> node_38_1 [ label="21.2132", len=2.12132 ]
-node_49_1 -> node_58_1 [ color=blue, penwidth=5, len=0.1 ]
 node_50_1
-[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 0.782843"; style=filled; label = "Idx: 50, dist: 60" ];
+[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 6904.06"; style=filled; label = "Idx: 50, dist: INF" ];
 node_50_1 -> node_61_1 [ label="21.2132", len=2.12132 ]
 node_50_1 -> node_51_1 [ label="15", len=1.5 ]
 node_50_1 -> node_41_1 [ label="21.2132", len=2.12132 ]
 node_50_1 -> node_60_1 [ label="15", len=1.5 ]
 node_50_1 -> node_40_1 [ label="15", len=1.5 ]
-node_50_1 -> node_51_1 [ color=blue, penwidth=5, len=0.1 ]
 node_51_1
-[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 0.712132"; style=filled; label = "Idx: 51, dist: 45" ];
+[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 6904.06"; style=filled; label = "Idx: 51, dist: INF" ];
 node_51_1 -> node_62_1 [ label="21.2132", len=2.12132 ]
 node_51_1 -> node_52_1 [ label="15", len=1.5 ]
 node_51_1 -> node_42_1 [ label="21.2132", len=2.12132 ]
@@ -1396,9 +1353,8 @@ node_51_1 -> node_41_1 [ label="15", len=1.5 ]
 node_51_1 -> node_60_1 [ label="21.2132", len=2.12132 ]
 node_51_1 -> node_50_1 [ label="15", len=1.5 ]
 node_51_1 -> node_40_1 [ label="21.2132", len=2.12132 ]
-node_51_1 -> node_52_1 [ color=blue, penwidth=5, len=0.1 ]
 node_52_1
-[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 0.641421"; style=filled; label = "Idx: 52, dist: 30" ];
+[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 6904.06"; style=filled; label = "Idx: 52, dist: INF" ];
 node_52_1 -> node_63_1 [ label="21.2132", len=2.12132 ]
 node_52_1 -> node_53_1 [ label="15", len=1.5 ]
 node_52_1 -> node_43_1 [ label="21.2132", len=2.12132 ]
@@ -1407,9 +1363,8 @@ node_52_1 -> node_42_1 [ label="15", len=1.5 ]
 node_52_1 -> node_61_1 [ label="21.2132", len=2.12132 ]
 node_52_1 -> node_51_1 [ label="15", len=1.5 ]
 node_52_1 -> node_41_1 [ label="21.2132", len=2.12132 ]
-node_52_1 -> node_53_1 [ color=blue, penwidth=5, len=0.1 ]
 node_53_1
-[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 0.570711"; style=filled; label = "Idx: 53, dist: 15" ];
+[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 6904.06"; style=filled; label = "Idx: 53, dist: INF" ];
 node_53_1 -> node_64_1 [ label="21.2132", len=2.12132 ]
 node_53_1 -> node_54_1 [ label="15", len=1.5 ]
 node_53_1 -> node_44_1 [ label="21.2132", len=2.12132 ]
@@ -1418,9 +1373,8 @@ node_53_1 -> node_43_1 [ label="15", len=1.5 ]
 node_53_1 -> node_62_1 [ label="21.2132", len=2.12132 ]
 node_53_1 -> node_52_1 [ label="15", len=1.5 ]
 node_53_1 -> node_42_1 [ label="21.2132", len=2.12132 ]
-node_53_1 -> node_54_1 [ color=blue, penwidth=5, len=0.1 ]
 node_54_1
-[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 0.5"; style=filled; label = "Idx: 54, dist: 0" ];
+[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 6904.06"; style=filled; label = "Idx: 54, dist: INF" ];
 node_54_1 -> node_65_1 [ label="21.2132", len=2.12132 ]
 node_54_1 -> node_55_1 [ label="15", len=1.5 ]
 node_54_1 -> node_45_1 [ label="21.2132", len=2.12132 ]
@@ -1430,7 +1384,7 @@ node_54_1 -> node_63_1 [ label="21.2132", len=2.12132 ]
 node_54_1 -> node_53_1 [ label="15", len=1.5 ]
 node_54_1 -> node_43_1 [ label="21.2132", len=2.12132 ]
 node_55_1
-[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 0.570711"; style=filled; label = "Idx: 55, dist: 15" ];
+[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 6904.06"; style=filled; label = "Idx: 55, dist: INF" ];
 node_55_1 -> node_66_1 [ label="21.2132", len=2.12132 ]
 node_55_1 -> node_56_1 [ label="15", len=1.5 ]
 node_55_1 -> node_46_1 [ label="21.2132", len=2.12132 ]
@@ -1439,9 +1393,8 @@ node_55_1 -> node_45_1 [ label="15", len=1.5 ]
 node_55_1 -> node_64_1 [ label="21.2132", len=2.12132 ]
 node_55_1 -> node_54_1 [ label="15", len=1.5 ]
 node_55_1 -> node_44_1 [ label="21.2132", len=2.12132 ]
-node_55_1 -> node_54_1 [ color=blue, penwidth=5, len=0.1 ]
 node_56_1
-[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 0.641421"; style=filled; label = "Idx: 56, dist: 30" ];
+[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 6904.06"; style=filled; label = "Idx: 56, dist: INF" ];
 node_56_1 -> node_67_1 [ label="21.2132", len=2.12132 ]
 node_56_1 -> node_57_1 [ label="15", len=1.5 ]
 node_56_1 -> node_47_1 [ label="21.2132", len=2.12132 ]
@@ -1450,9 +1403,8 @@ node_56_1 -> node_46_1 [ label="15", len=1.5 ]
 node_56_1 -> node_65_1 [ label="21.2132", len=2.12132 ]
 node_56_1 -> node_55_1 [ label="15", len=1.5 ]
 node_56_1 -> node_45_1 [ label="21.2132", len=2.12132 ]
-node_56_1 -> node_55_1 [ color=blue, penwidth=5, len=0.1 ]
 node_57_1
-[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 0.712132"; style=filled; label = "Idx: 57, dist: 45" ];
+[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 6904.06"; style=filled; label = "Idx: 57, dist: INF" ];
 node_57_1 -> node_68_1 [ label="21.2132", len=2.12132 ]
 node_57_1 -> node_58_1 [ label="15", len=1.5 ]
 node_57_1 -> node_48_1 [ label="21.2132", len=2.12132 ]
@@ -1461,9 +1413,8 @@ node_57_1 -> node_47_1 [ label="15", len=1.5 ]
 node_57_1 -> node_66_1 [ label="21.2132", len=2.12132 ]
 node_57_1 -> node_56_1 [ label="15", len=1.5 ]
 node_57_1 -> node_46_1 [ label="21.2132", len=2.12132 ]
-node_57_1 -> node_56_1 [ color=blue, penwidth=5, len=0.1 ]
 node_58_1
-[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 0.782843"; style=filled; label = "Idx: 58, dist: 60" ];
+[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 6904.06"; style=filled; label = "Idx: 58, dist: INF" ];
 node_58_1 -> node_69_1 [ label="21.2132", len=2.12132 ]
 node_58_1 -> node_59_1 [ label="15", len=1.5 ]
 node_58_1 -> node_49_1 [ label="21.2132", len=2.12132 ]
@@ -1472,25 +1423,22 @@ node_58_1 -> node_48_1 [ label="15", len=1.5 ]
 node_58_1 -> node_67_1 [ label="21.2132", len=2.12132 ]
 node_58_1 -> node_57_1 [ label="15", len=1.5 ]
 node_58_1 -> node_47_1 [ label="21.2132", len=2.12132 ]
-node_58_1 -> node_57_1 [ color=blue, penwidth=5, len=0.1 ]
 node_59_1
-[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 0.853553"; style=filled; label = "Idx: 59, dist: 75" ];
+[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 6904.06"; style=filled; label = "Idx: 59, dist: INF" ];
 node_59_1 -> node_69_1 [ label="15", len=1.5 ]
 node_59_1 -> node_49_1 [ label="15", len=1.5 ]
 node_59_1 -> node_68_1 [ label="21.2132", len=2.12132 ]
 node_59_1 -> node_58_1 [ label="15", len=1.5 ]
 node_59_1 -> node_48_1 [ label="21.2132", len=2.12132 ]
-node_59_1 -> node_58_1 [ color=blue, penwidth=5, len=0.1 ]
 node_60_1
-[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 0.812132"; style=filled; label = "Idx: 60, dist: 66.2132" ];
+[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 6904.06"; style=filled; label = "Idx: 60, dist: INF" ];
 node_60_1 -> node_71_1 [ label="21.2132", len=2.12132 ]
 node_60_1 -> node_61_1 [ label="15", len=1.5 ]
 node_60_1 -> node_51_1 [ label="21.2132", len=2.12132 ]
 node_60_1 -> node_70_1 [ label="15", len=1.5 ]
 node_60_1 -> node_50_1 [ label="15", len=1.5 ]
-node_60_1 -> node_51_1 [ color=blue, penwidth=5, len=0.1 ]
 node_61_1
-[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 0.741421"; style=filled; label = "Idx: 61, dist: 51.2132" ];
+[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 6904.06"; style=filled; label = "Idx: 61, dist: INF" ];
 node_61_1 -> node_72_1 [ label="21.2132", len=2.12132 ]
 node_61_1 -> node_62_1 [ label="15", len=1.5 ]
 node_61_1 -> node_52_1 [ label="21.2132", len=2.12132 ]
@@ -1499,9 +1447,8 @@ node_61_1 -> node_51_1 [ label="15", len=1.5 ]
 node_61_1 -> node_70_1 [ label="21.2132", len=2.12132 ]
 node_61_1 -> node_60_1 [ label="15", len=1.5 ]
 node_61_1 -> node_50_1 [ label="21.2132", len=2.12132 ]
-node_61_1 -> node_52_1 [ color=blue, penwidth=5, len=0.1 ]
 node_62_1
-[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 0.670711"; style=filled; label = "Idx: 62, dist: 36.2132" ];
+[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 6904.06"; style=filled; label = "Idx: 62, dist: INF" ];
 node_62_1 -> node_73_1 [ label="21.2132", len=2.12132 ]
 node_62_1 -> node_63_1 [ label="15", len=1.5 ]
 node_62_1 -> node_53_1 [ label="21.2132", len=2.12132 ]
@@ -1510,9 +1457,8 @@ node_62_1 -> node_52_1 [ label="15", len=1.5 ]
 node_62_1 -> node_71_1 [ label="21.2132", len=2.12132 ]
 node_62_1 -> node_61_1 [ label="15", len=1.5 ]
 node_62_1 -> node_51_1 [ label="21.2132", len=2.12132 ]
-node_62_1 -> node_53_1 [ color=blue, penwidth=5, len=0.1 ]
 node_63_1
-[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 0.6"; style=filled; label = "Idx: 63, dist: 21.2132" ];
+[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 6904.06"; style=filled; label = "Idx: 63, dist: INF" ];
 node_63_1 -> node_74_1 [ label="21.2132", len=2.12132 ]
 node_63_1 -> node_64_1 [ label="15", len=1.5 ]
 node_63_1 -> node_54_1 [ label="21.2132", len=2.12132 ]
@@ -1521,9 +1467,8 @@ node_63_1 -> node_53_1 [ label="15", len=1.5 ]
 node_63_1 -> node_72_1 [ label="21.2132", len=2.12132 ]
 node_63_1 -> node_62_1 [ label="15", len=1.5 ]
 node_63_1 -> node_52_1 [ label="21.2132", len=2.12132 ]
-node_63_1 -> node_54_1 [ color=blue, penwidth=5, len=0.1 ]
 node_64_1
-[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 0.570711"; style=filled; label = "Idx: 64, dist: 15" ];
+[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 6904.06"; style=filled; label = "Idx: 64, dist: INF" ];
 node_64_1 -> node_75_1 [ label="21.2132", len=2.12132 ]
 node_64_1 -> node_65_1 [ label="15", len=1.5 ]
 node_64_1 -> node_55_1 [ label="21.2132", len=2.12132 ]
@@ -1532,9 +1477,8 @@ node_64_1 -> node_54_1 [ label="15", len=1.5 ]
 node_64_1 -> node_73_1 [ label="21.2132", len=2.12132 ]
 node_64_1 -> node_63_1 [ label="15", len=1.5 ]
 node_64_1 -> node_53_1 [ label="21.2132", len=2.12132 ]
-node_64_1 -> node_54_1 [ color=blue, penwidth=5, len=0.1 ]
 node_65_1
-[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 0.6"; style=filled; label = "Idx: 65, dist: 21.2132" ];
+[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 6904.06"; style=filled; label = "Idx: 65, dist: INF" ];
 node_65_1 -> node_76_1 [ label="21.2132", len=2.12132 ]
 node_65_1 -> node_66_1 [ label="15", len=1.5 ]
 node_65_1 -> node_56_1 [ label="21.2132", len=2.12132 ]
@@ -1543,9 +1487,8 @@ node_65_1 -> node_55_1 [ label="15", len=1.5 ]
 node_65_1 -> node_74_1 [ label="21.2132", len=2.12132 ]
 node_65_1 -> node_64_1 [ label="15", len=1.5 ]
 node_65_1 -> node_54_1 [ label="21.2132", len=2.12132 ]
-node_65_1 -> node_54_1 [ color=blue, penwidth=5, len=0.1 ]
 node_66_1
-[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 0.670711"; style=filled; label = "Idx: 66, dist: 36.2132" ];
+[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 6904.06"; style=filled; label = "Idx: 66, dist: INF" ];
 node_66_1 -> node_77_1 [ label="21.2132", len=2.12132 ]
 node_66_1 -> node_67_1 [ label="15", len=1.5 ]
 node_66_1 -> node_57_1 [ label="21.2132", len=2.12132 ]
@@ -1554,9 +1497,8 @@ node_66_1 -> node_56_1 [ label="15", len=1.5 ]
 node_66_1 -> node_75_1 [ label="21.2132", len=2.12132 ]
 node_66_1 -> node_65_1 [ label="15", len=1.5 ]
 node_66_1 -> node_55_1 [ label="21.2132", len=2.12132 ]
-node_66_1 -> node_55_1 [ color=blue, penwidth=5, len=0.1 ]
 node_67_1
-[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 0.741421"; style=filled; label = "Idx: 67, dist: 51.2132" ];
+[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 6904.06"; style=filled; label = "Idx: 67, dist: INF" ];
 node_67_1 -> node_78_1 [ label="21.2132", len=2.12132 ]
 node_67_1 -> node_68_1 [ label="15", len=1.5 ]
 node_67_1 -> node_58_1 [ label="21.2132", len=2.12132 ]
@@ -1565,9 +1507,8 @@ node_67_1 -> node_57_1 [ label="15", len=1.5 ]
 node_67_1 -> node_76_1 [ label="21.2132", len=2.12132 ]
 node_67_1 -> node_66_1 [ label="15", len=1.5 ]
 node_67_1 -> node_56_1 [ label="21.2132", len=2.12132 ]
-node_67_1 -> node_56_1 [ color=blue, penwidth=5, len=0.1 ]
 node_68_1
-[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 0.812132"; style=filled; label = "Idx: 68, dist: 66.2132" ];
+[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 6904.06"; style=filled; label = "Idx: 68, dist: INF" ];
 node_68_1 -> node_79_1 [ label="21.2132", len=2.12132 ]
 node_68_1 -> node_69_1 [ label="15", len=1.5 ]
 node_68_1 -> node_59_1 [ label="21.2132", len=2.12132 ]
@@ -1576,25 +1517,22 @@ node_68_1 -> node_58_1 [ label="15", len=1.5 ]
 node_68_1 -> node_77_1 [ label="21.2132", len=2.12132 ]
 node_68_1 -> node_67_1 [ label="15", len=1.5 ]
 node_68_1 -> node_57_1 [ label="21.2132", len=2.12132 ]
-node_68_1 -> node_57_1 [ color=blue, penwidth=5, len=0.1 ]
 node_69_1
-[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 0.882843"; style=filled; label = "Idx: 69, dist: 81.2132" ];
+[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 6904.06"; style=filled; label = "Idx: 69, dist: INF" ];
 node_69_1 -> node_79_1 [ label="15", len=1.5 ]
 node_69_1 -> node_59_1 [ label="15", len=1.5 ]
 node_69_1 -> node_78_1 [ label="21.2132", len=2.12132 ]
 node_69_1 -> node_68_1 [ label="15", len=1.5 ]
 node_69_1 -> node_58_1 [ label="21.2132", len=2.12132 ]
-node_69_1 -> node_58_1 [ color=blue, penwidth=5, len=0.1 ]
 node_70_1
-[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 0.841421"; style=filled; label = "Idx: 70, dist: 72.4264" ];
+[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 6904.06"; style=filled; label = "Idx: 70, dist: INF" ];
 node_70_1 -> node_81_1 [ label="21.2132", len=2.12132 ]
 node_70_1 -> node_71_1 [ label="15", len=1.5 ]
 node_70_1 -> node_61_1 [ label="21.2132", len=2.12132 ]
 node_70_1 -> node_80_1 [ label="15", len=1.5 ]
 node_70_1 -> node_60_1 [ label="15", len=1.5 ]
-node_70_1 -> node_61_1 [ color=blue, penwidth=5, len=0.1 ]
 node_71_1
-[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 0.770711"; style=filled; label = "Idx: 71, dist: 57.4264" ];
+[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 6904.06"; style=filled; label = "Idx: 71, dist: INF" ];
 node_71_1 -> node_82_1 [ label="21.2132", len=2.12132 ]
 node_71_1 -> node_72_1 [ label="15", len=1.5 ]
 node_71_1 -> node_62_1 [ label="21.2132", len=2.12132 ]
@@ -1603,9 +1541,8 @@ node_71_1 -> node_61_1 [ label="15", len=1.5 ]
 node_71_1 -> node_80_1 [ label="21.2132", len=2.12132 ]
 node_71_1 -> node_70_1 [ label="15", len=1.5 ]
 node_71_1 -> node_60_1 [ label="21.2132", len=2.12132 ]
-node_71_1 -> node_62_1 [ color=blue, penwidth=5, len=0.1 ]
 node_72_1
-[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 0.7"; style=filled; label = "Idx: 72, dist: 42.4264" ];
+[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 6904.06"; style=filled; label = "Idx: 72, dist: INF" ];
 node_72_1 -> node_83_1 [ label="21.2132", len=2.12132 ]
 node_72_1 -> node_73_1 [ label="15", len=1.5 ]
 node_72_1 -> node_63_1 [ label="21.2132", len=2.12132 ]
@@ -1614,9 +1551,8 @@ node_72_1 -> node_62_1 [ label="15", len=1.5 ]
 node_72_1 -> node_81_1 [ label="21.2132", len=2.12132 ]
 node_72_1 -> node_71_1 [ label="15", len=1.5 ]
 node_72_1 -> node_61_1 [ label="21.2132", len=2.12132 ]
-node_72_1 -> node_63_1 [ color=blue, penwidth=5, len=0.1 ]
 node_73_1
-[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 0.670711"; style=filled; label = "Idx: 73, dist: 36.2132" ];
+[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 6904.06"; style=filled; label = "Idx: 73, dist: INF" ];
 node_73_1 -> node_84_1 [ label="21.2132", len=2.12132 ]
 node_73_1 -> node_74_1 [ label="15", len=1.5 ]
 node_73_1 -> node_64_1 [ label="21.2132", len=2.12132 ]
@@ -1625,9 +1561,8 @@ node_73_1 -> node_63_1 [ label="15", len=1.5 ]
 node_73_1 -> node_82_1 [ label="21.2132", len=2.12132 ]
 node_73_1 -> node_72_1 [ label="15", len=1.5 ]
 node_73_1 -> node_62_1 [ label="21.2132", len=2.12132 ]
-node_73_1 -> node_64_1 [ color=blue, penwidth=5, len=0.1 ]
 node_74_1
-[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 0.641421"; style=filled; label = "Idx: 74, dist: 30" ];
+[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 6904.06"; style=filled; label = "Idx: 74, dist: INF" ];
 node_74_1 -> node_85_1 [ label="21.2132", len=2.12132 ]
 node_74_1 -> node_75_1 [ label="15", len=1.5 ]
 node_74_1 -> node_65_1 [ label="21.2132", len=2.12132 ]
@@ -1636,9 +1571,8 @@ node_74_1 -> node_64_1 [ label="15", len=1.5 ]
 node_74_1 -> node_83_1 [ label="21.2132", len=2.12132 ]
 node_74_1 -> node_73_1 [ label="15", len=1.5 ]
 node_74_1 -> node_63_1 [ label="21.2132", len=2.12132 ]
-node_74_1 -> node_64_1 [ color=blue, penwidth=5, len=0.1 ]
 node_75_1
-[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 0.670711"; style=filled; label = "Idx: 75, dist: 36.2132" ];
+[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 6904.06"; style=filled; label = "Idx: 75, dist: INF" ];
 node_75_1 -> node_86_1 [ label="21.2132", len=2.12132 ]
 node_75_1 -> node_76_1 [ label="15", len=1.5 ]
 node_75_1 -> node_66_1 [ label="21.2132", len=2.12132 ]
@@ -1647,9 +1581,8 @@ node_75_1 -> node_65_1 [ label="15", len=1.5 ]
 node_75_1 -> node_84_1 [ label="21.2132", len=2.12132 ]
 node_75_1 -> node_74_1 [ label="15", len=1.5 ]
 node_75_1 -> node_64_1 [ label="21.2132", len=2.12132 ]
-node_75_1 -> node_64_1 [ color=blue, penwidth=5, len=0.1 ]
 node_76_1
-[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 0.7"; style=filled; label = "Idx: 76, dist: 42.4264" ];
+[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 6904.06"; style=filled; label = "Idx: 76, dist: INF" ];
 node_76_1 -> node_87_1 [ label="21.2132", len=2.12132 ]
 node_76_1 -> node_77_1 [ label="15", len=1.5 ]
 node_76_1 -> node_67_1 [ label="21.2132", len=2.12132 ]
@@ -1658,9 +1591,8 @@ node_76_1 -> node_66_1 [ label="15", len=1.5 ]
 node_76_1 -> node_85_1 [ label="21.2132", len=2.12132 ]
 node_76_1 -> node_75_1 [ label="15", len=1.5 ]
 node_76_1 -> node_65_1 [ label="21.2132", len=2.12132 ]
-node_76_1 -> node_65_1 [ color=blue, penwidth=5, len=0.1 ]
 node_77_1
-[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 0.770711"; style=filled; label = "Idx: 77, dist: 57.4264" ];
+[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 6904.06"; style=filled; label = "Idx: 77, dist: INF" ];
 node_77_1 -> node_88_1 [ label="21.2132", len=2.12132 ]
 node_77_1 -> node_78_1 [ label="15", len=1.5 ]
 node_77_1 -> node_68_1 [ label="21.2132", len=2.12132 ]
@@ -1669,9 +1601,8 @@ node_77_1 -> node_67_1 [ label="15", len=1.5 ]
 node_77_1 -> node_86_1 [ label="21.2132", len=2.12132 ]
 node_77_1 -> node_76_1 [ label="15", len=1.5 ]
 node_77_1 -> node_66_1 [ label="21.2132", len=2.12132 ]
-node_77_1 -> node_66_1 [ color=blue, penwidth=5, len=0.1 ]
 node_78_1
-[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 0.841421"; style=filled; label = "Idx: 78, dist: 72.4264" ];
+[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 6904.06"; style=filled; label = "Idx: 78, dist: INF" ];
 node_78_1 -> node_89_1 [ label="21.2132", len=2.12132 ]
 node_78_1 -> node_79_1 [ label="15", len=1.5 ]
 node_78_1 -> node_69_1 [ label="21.2132", len=2.12132 ]
@@ -1680,25 +1611,22 @@ node_78_1 -> node_68_1 [ label="15", len=1.5 ]
 node_78_1 -> node_87_1 [ label="21.2132", len=2.12132 ]
 node_78_1 -> node_77_1 [ label="15", len=1.5 ]
 node_78_1 -> node_67_1 [ label="21.2132", len=2.12132 ]
-node_78_1 -> node_67_1 [ color=blue, penwidth=5, len=0.1 ]
 node_79_1
-[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 0.912132"; style=filled; label = "Idx: 79, dist: 87.4264" ];
+[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 6904.06"; style=filled; label = "Idx: 79, dist: INF" ];
 node_79_1 -> node_89_1 [ label="15", len=1.5 ]
 node_79_1 -> node_69_1 [ label="15", len=1.5 ]
 node_79_1 -> node_88_1 [ label="21.2132", len=2.12132 ]
 node_79_1 -> node_78_1 [ label="15", len=1.5 ]
 node_79_1 -> node_68_1 [ label="21.2132", len=2.12132 ]
-node_79_1 -> node_68_1 [ color=blue, penwidth=5, len=0.1 ]
 node_80_1
-[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 0.870711"; style=filled; label = "Idx: 80, dist: 78.6396" ];
+[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 6904.06"; style=filled; label = "Idx: 80, dist: INF" ];
 node_80_1 -> node_91_1 [ label="21.2132", len=2.12132 ]
 node_80_1 -> node_81_1 [ label="15", len=1.5 ]
 node_80_1 -> node_71_1 [ label="21.2132", len=2.12132 ]
 node_80_1 -> node_90_1 [ label="15", len=1.5 ]
 node_80_1 -> node_70_1 [ label="15", len=1.5 ]
-node_80_1 -> node_71_1 [ color=blue, penwidth=5, len=0.1 ]
 node_81_1
-[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 0.8"; style=filled; label = "Idx: 81, dist: 63.6396" ];
+[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 6904.06"; style=filled; label = "Idx: 81, dist: INF" ];
 node_81_1 -> node_92_1 [ label="21.2132", len=2.12132 ]
 node_81_1 -> node_82_1 [ label="15", len=1.5 ]
 node_81_1 -> node_72_1 [ label="21.2132", len=2.12132 ]
@@ -1707,9 +1635,8 @@ node_81_1 -> node_71_1 [ label="15", len=1.5 ]
 node_81_1 -> node_90_1 [ label="21.2132", len=2.12132 ]
 node_81_1 -> node_80_1 [ label="15", len=1.5 ]
 node_81_1 -> node_70_1 [ label="21.2132", len=2.12132 ]
-node_81_1 -> node_72_1 [ color=blue, penwidth=5, len=0.1 ]
 node_82_1
-[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 0.770711"; style=filled; label = "Idx: 82, dist: 57.4264" ];
+[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 6904.06"; style=filled; label = "Idx: 82, dist: INF" ];
 node_82_1 -> node_93_1 [ label="21.2132", len=2.12132 ]
 node_82_1 -> node_83_1 [ label="15", len=1.5 ]
 node_82_1 -> node_73_1 [ label="21.2132", len=2.12132 ]
@@ -1718,9 +1645,8 @@ node_82_1 -> node_72_1 [ label="15", len=1.5 ]
 node_82_1 -> node_91_1 [ label="21.2132", len=2.12132 ]
 node_82_1 -> node_81_1 [ label="15", len=1.5 ]
 node_82_1 -> node_71_1 [ label="21.2132", len=2.12132 ]
-node_82_1 -> node_73_1 [ color=blue, penwidth=5, len=0.1 ]
 node_83_1
-[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 0.741421"; style=filled; label = "Idx: 83, dist: 51.2132" ];
+[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 6904.06"; style=filled; label = "Idx: 83, dist: INF" ];
 node_83_1 -> node_94_1 [ label="21.2132", len=2.12132 ]
 node_83_1 -> node_84_1 [ label="15", len=1.5 ]
 node_83_1 -> node_74_1 [ label="21.2132", len=2.12132 ]
@@ -1729,9 +1655,8 @@ node_83_1 -> node_73_1 [ label="15", len=1.5 ]
 node_83_1 -> node_92_1 [ label="21.2132", len=2.12132 ]
 node_83_1 -> node_82_1 [ label="15", len=1.5 ]
 node_83_1 -> node_72_1 [ label="21.2132", len=2.12132 ]
-node_83_1 -> node_74_1 [ color=blue, penwidth=5, len=0.1 ]
 node_84_1
-[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 0.712132"; style=filled; label = "Idx: 84, dist: 45" ];
+[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 6904.06"; style=filled; label = "Idx: 84, dist: INF" ];
 node_84_1 -> node_95_1 [ label="21.2132", len=2.12132 ]
 node_84_1 -> node_85_1 [ label="15", len=1.5 ]
 node_84_1 -> node_75_1 [ label="21.2132", len=2.12132 ]
@@ -1740,9 +1665,8 @@ node_84_1 -> node_74_1 [ label="15", len=1.5 ]
 node_84_1 -> node_93_1 [ label="21.2132", len=2.12132 ]
 node_84_1 -> node_83_1 [ label="15", len=1.5 ]
 node_84_1 -> node_73_1 [ label="21.2132", len=2.12132 ]
-node_84_1 -> node_74_1 [ color=blue, penwidth=5, len=0.1 ]
 node_85_1
-[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 0.741421"; style=filled; label = "Idx: 85, dist: 51.2132" ];
+[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 6904.06"; style=filled; label = "Idx: 85, dist: INF" ];
 node_85_1 -> node_96_1 [ label="21.2132", len=2.12132 ]
 node_85_1 -> node_86_1 [ label="15", len=1.5 ]
 node_85_1 -> node_76_1 [ label="21.2132", len=2.12132 ]
@@ -1751,9 +1675,8 @@ node_85_1 -> node_75_1 [ label="15", len=1.5 ]
 node_85_1 -> node_94_1 [ label="21.2132", len=2.12132 ]
 node_85_1 -> node_84_1 [ label="15", len=1.5 ]
 node_85_1 -> node_74_1 [ label="21.2132", len=2.12132 ]
-node_85_1 -> node_74_1 [ color=blue, penwidth=5, len=0.1 ]
 node_86_1
-[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 0.770711"; style=filled; label = "Idx: 86, dist: 57.4264" ];
+[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 6904.06"; style=filled; label = "Idx: 86, dist: INF" ];
 node_86_1 -> node_97_1 [ label="21.2132", len=2.12132 ]
 node_86_1 -> node_87_1 [ label="15", len=1.5 ]
 node_86_1 -> node_77_1 [ label="21.2132", len=2.12132 ]
@@ -1762,9 +1685,8 @@ node_86_1 -> node_76_1 [ label="15", len=1.5 ]
 node_86_1 -> node_95_1 [ label="21.2132", len=2.12132 ]
 node_86_1 -> node_85_1 [ label="15", len=1.5 ]
 node_86_1 -> node_75_1 [ label="21.2132", len=2.12132 ]
-node_86_1 -> node_75_1 [ color=blue, penwidth=5, len=0.1 ]
 node_87_1
-[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 0.8"; style=filled; label = "Idx: 87, dist: 63.6396" ];
+[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 6904.06"; style=filled; label = "Idx: 87, dist: INF" ];
 node_87_1 -> node_98_1 [ label="21.2132", len=2.12132 ]
 node_87_1 -> node_88_1 [ label="15", len=1.5 ]
 node_87_1 -> node_78_1 [ label="21.2132", len=2.12132 ]
@@ -1773,9 +1695,8 @@ node_87_1 -> node_77_1 [ label="15", len=1.5 ]
 node_87_1 -> node_96_1 [ label="21.2132", len=2.12132 ]
 node_87_1 -> node_86_1 [ label="15", len=1.5 ]
 node_87_1 -> node_76_1 [ label="21.2132", len=2.12132 ]
-node_87_1 -> node_76_1 [ color=blue, penwidth=5, len=0.1 ]
 node_88_1
-[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 0.870711"; style=filled; label = "Idx: 88, dist: 78.6396" ];
+[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 6904.06"; style=filled; label = "Idx: 88, dist: INF" ];
 node_88_1 -> node_99_1 [ label="21.2132", len=2.12132 ]
 node_88_1 -> node_89_1 [ label="15", len=1.5 ]
 node_88_1 -> node_79_1 [ label="21.2132", len=2.12132 ]
@@ -1784,89 +1705,77 @@ node_88_1 -> node_78_1 [ label="15", len=1.5 ]
 node_88_1 -> node_97_1 [ label="21.2132", len=2.12132 ]
 node_88_1 -> node_87_1 [ label="15", len=1.5 ]
 node_88_1 -> node_77_1 [ label="21.2132", len=2.12132 ]
-node_88_1 -> node_77_1 [ color=blue, penwidth=5, len=0.1 ]
 node_89_1
-[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 0.941421"; style=filled; label = "Idx: 89, dist: 93.6396" ];
+[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 6904.06"; style=filled; label = "Idx: 89, dist: INF" ];
 node_89_1 -> node_99_1 [ label="15", len=1.5 ]
 node_89_1 -> node_79_1 [ label="15", len=1.5 ]
 node_89_1 -> node_98_1 [ label="21.2132", len=2.12132 ]
 node_89_1 -> node_88_1 [ label="15", len=1.5 ]
 node_89_1 -> node_78_1 [ label="21.2132", len=2.12132 ]
-node_89_1 -> node_78_1 [ color=blue, penwidth=5, len=0.1 ]
 node_90_1
-[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 0.9"; style=filled; label = "Idx: 90, dist: 84.8528" ];
+[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 6904.06"; style=filled; label = "Idx: 90, dist: INF" ];
 node_90_1 -> node_91_1 [ label="15", len=1.5 ]
 node_90_1 -> node_81_1 [ label="21.2132", len=2.12132 ]
 node_90_1 -> node_80_1 [ label="15", len=1.5 ]
-node_90_1 -> node_81_1 [ color=blue, penwidth=5, len=0.1 ]
 node_91_1
-[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 0.870711"; style=filled; label = "Idx: 91, dist: 78.6396" ];
+[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 6904.06"; style=filled; label = "Idx: 91, dist: INF" ];
 node_91_1 -> node_92_1 [ label="15", len=1.5 ]
 node_91_1 -> node_82_1 [ label="21.2132", len=2.12132 ]
 node_91_1 -> node_81_1 [ label="15", len=1.5 ]
 node_91_1 -> node_90_1 [ label="15", len=1.5 ]
 node_91_1 -> node_80_1 [ label="21.2132", len=2.12132 ]
-node_91_1 -> node_82_1 [ color=blue, penwidth=5, len=0.1 ]
 node_92_1
-[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 0.841421"; style=filled; label = "Idx: 92, dist: 72.4264" ];
+[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 6904.06"; style=filled; label = "Idx: 92, dist: INF" ];
 node_92_1 -> node_93_1 [ label="15", len=1.5 ]
 node_92_1 -> node_83_1 [ label="21.2132", len=2.12132 ]
 node_92_1 -> node_82_1 [ label="15", len=1.5 ]
 node_92_1 -> node_91_1 [ label="15", len=1.5 ]
 node_92_1 -> node_81_1 [ label="21.2132", len=2.12132 ]
-node_92_1 -> node_83_1 [ color=blue, penwidth=5, len=0.1 ]
 node_93_1
-[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 0.812132"; style=filled; label = "Idx: 93, dist: 66.2132" ];
+[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 6904.06"; style=filled; label = "Idx: 93, dist: INF" ];
 node_93_1 -> node_94_1 [ label="15", len=1.5 ]
 node_93_1 -> node_84_1 [ label="21.2132", len=2.12132 ]
 node_93_1 -> node_83_1 [ label="15", len=1.5 ]
 node_93_1 -> node_92_1 [ label="15", len=1.5 ]
 node_93_1 -> node_82_1 [ label="21.2132", len=2.12132 ]
-node_93_1 -> node_84_1 [ color=blue, penwidth=5, len=0.1 ]
 node_94_1
-[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 0.782843"; style=filled; label = "Idx: 94, dist: 60" ];
+[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 6904.06"; style=filled; label = "Idx: 94, dist: INF" ];
 node_94_1 -> node_95_1 [ label="15", len=1.5 ]
 node_94_1 -> node_85_1 [ label="21.2132", len=2.12132 ]
 node_94_1 -> node_84_1 [ label="15", len=1.5 ]
 node_94_1 -> node_93_1 [ label="15", len=1.5 ]
 node_94_1 -> node_83_1 [ label="21.2132", len=2.12132 ]
-node_94_1 -> node_84_1 [ color=blue, penwidth=5, len=0.1 ]
 node_95_1
-[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 0.812132"; style=filled; label = "Idx: 95, dist: 66.2132" ];
+[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 6904.06"; style=filled; label = "Idx: 95, dist: INF" ];
 node_95_1 -> node_96_1 [ label="15", len=1.5 ]
 node_95_1 -> node_86_1 [ label="21.2132", len=2.12132 ]
 node_95_1 -> node_85_1 [ label="15", len=1.5 ]
 node_95_1 -> node_94_1 [ label="15", len=1.5 ]
 node_95_1 -> node_84_1 [ label="21.2132", len=2.12132 ]
-node_95_1 -> node_84_1 [ color=blue, penwidth=5, len=0.1 ]
 node_96_1
-[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 0.841421"; style=filled; label = "Idx: 96, dist: 72.4264" ];
+[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 6904.06"; style=filled; label = "Idx: 96, dist: INF" ];
 node_96_1 -> node_97_1 [ label="15", len=1.5 ]
 node_96_1 -> node_87_1 [ label="21.2132", len=2.12132 ]
 node_96_1 -> node_86_1 [ label="15", len=1.5 ]
 node_96_1 -> node_95_1 [ label="15", len=1.5 ]
 node_96_1 -> node_85_1 [ label="21.2132", len=2.12132 ]
-node_96_1 -> node_85_1 [ color=blue, penwidth=5, len=0.1 ]
 node_97_1
-[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 0.870711"; style=filled; label = "Idx: 97, dist: 78.6396" ];
+[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 6904.06"; style=filled; label = "Idx: 97, dist: INF" ];
 node_97_1 -> node_98_1 [ label="15", len=1.5 ]
 node_97_1 -> node_88_1 [ label="21.2132", len=2.12132 ]
 node_97_1 -> node_87_1 [ label="15", len=1.5 ]
 node_97_1 -> node_96_1 [ label="15", len=1.5 ]
 node_97_1 -> node_86_1 [ label="21.2132", len=2.12132 ]
-node_97_1 -> node_86_1 [ color=blue, penwidth=5, len=0.1 ]
 node_98_1
-[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 0.9"; style=filled; label = "Idx: 98, dist: 84.8528" ];
+[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 6904.06"; style=filled; label = "Idx: 98, dist: INF" ];
 node_98_1 -> node_99_1 [ label="15", len=1.5 ]
 node_98_1 -> node_89_1 [ label="21.2132", len=2.12132 ]
 node_98_1 -> node_88_1 [ label="15", len=1.5 ]
 node_98_1 -> node_97_1 [ label="15", len=1.5 ]
 node_98_1 -> node_87_1 [ label="21.2132", len=2.12132 ]
-node_98_1 -> node_87_1 [ color=blue, penwidth=5, len=0.1 ]
 node_99_1
-[ shape = oval; fillcolor = "0.0 0.0 0.970711"; style=filled; label = "Idx: 99, dist: 99.8528" ];
+[ shape = oval; fillcolor = "0.0 0.0 6904.06"; style=filled; label = "Idx: 99, dist: INF" ];
 node_99_1 -> node_89_1 [ label="15", len=1.5 ]
 node_99_1 -> node_98_1 [ label="15", len=1.5 ]
 node_99_1 -> node_88_1 [ label="21.2132", len=2.12132 ]
-node_99_1 -> node_88_1 [ color=blue, penwidth=5, len=0.1 ]
 }
