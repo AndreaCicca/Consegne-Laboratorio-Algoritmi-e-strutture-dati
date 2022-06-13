@@ -502,48 +502,48 @@ node_t* build_euler(int preordine){
   return nodo;
 } 
 
-// node_t* build_euler_senza_goto(int n1){
+node_t* build_euler_senza_goto(int n1){
 
-//   int n2,n3; // variabili su cui memorizzare gli elementi letti da file
+  int n2,n3; // variabili su cui memorizzare gli elementi letti da file
 
-//   /// qui ("zona" preordine) leggiamo gia' dal file il prossimo valore
-//   /// per decidere se dobbiamo fare la chiamata ricorsiva
-//   /// in caso si passa il valore letto alla chiamata (equivalente alla lettura in preordine),
-//   /// altrimenti il valore letto e' il valore da usare in ordine, tra le due chiamate ricorsive
+  /// qui ("zona" preordine) leggiamo gia' dal file il prossimo valore
+  /// per decidere se dobbiamo fare la chiamata ricorsiva
+  /// in caso si passa il valore letto alla chiamata (equivalente alla lettura in preordine),
+  /// altrimenti il valore letto e' il valore da usare in ordine, tra le due chiamate ricorsive
 
-//   /// completare con le creazioni dei nodi e corretti puntatori
+  /// completare con le creazioni dei nodi e corretti puntatori
 
-//   int cnt = 1; // contatore letture valore nodo corrente. Ogni valore deve essere letto esattamente 3 volte.
+  int cnt = 1; // contatore letture valore nodo corrente. Ogni valore deve essere letto esattamente 3 volte.
 
-//   node_t* nodo = node_new(n1); // inizializzazione nodo con n1
+  node_t* nodo = node_new(n1); // inizializzazione nodo con n1
 
 
-//   input_visit >> n2; // lettura elemento successivo 
-//   if(n1 == n2) ++cnt; // se leggo ancora lo stesso valore incremento cnt
+  input_visit >> n2; // lettura elemento successivo 
+  if(n1 == n2) ++cnt; // se leggo ancora lo stesso valore incremento cnt
 
-//   if (n1 != n2) { 
-//    nodo->L = build_euler(n2); // creazione sottoalbero sinistro
-//   }
+  if (n1 != n2) { 
+   nodo->L = build_euler(n2); // creazione sottoalbero sinistro
+  }
 
-//   input_visit >> n3; // lettura elemento successivo 
+  input_visit >> n3; // lettura elemento successivo 
 
-//   if(n1 == n3)  ++cnt; // se leggo ancora lo stesso valore incremento cnt
+  if(n1 == n3)  ++cnt; // se leggo ancora lo stesso valore incremento cnt
 
-//   while(n1 == n3 && cnt != 3) { // leggo i valori successivi fino a che non ne trovo uno diverso rispetto al valore del nodo corrente oppure leggo 3 volte quest'ultimo
-//     input_visit >> n3; // lettura elemento successivo 
-//      if(n1 == n3) ++cnt; // se leggo ancora lo stesso valore incremento cnt
-//   }
+  while(n1 == n3 && cnt != 3) { // leggo i valori successivi fino a che non ne trovo uno diverso rispetto al valore del nodo corrente oppure leggo 3 volte quest'ultimo
+    input_visit >> n3; // lettura elemento successivo 
+     if(n1 == n3) ++cnt; // se leggo ancora lo stesso valore incremento cnt
+  }
 
-//   if (n2 != n3 && cnt != 3){ // controllo anche che il valore del nodo corrente non sia stato letto 3 volte e quindi non possa più avere un sottoalbero destro
-//     nodo->R = build_euler(n3); // creazione sottoalbero destro
-//   }
+  if (n2 != n3 && cnt != 3){ // controllo anche che il valore del nodo corrente non sia stato letto 3 volte e quindi non possa più avere un sottoalbero destro
+    nodo->R = build_euler(n3); // creazione sottoalbero destro
+  }
 
-//   if(cnt != 3) { // controllo che il valore del nodo corrente sia stato letto esattamente 3 volte
-//     input_visit >> n3; 
-//   }
+  if(cnt != 3) { // controllo che il valore del nodo corrente sia stato letto esattamente 3 volte
+    input_visit >> n3; 
+  }
 
-//   return nodo; // ritorno la radice
-// }
+  return nodo; // ritorno la radice
+}
 
 
 // 7) flip albero
