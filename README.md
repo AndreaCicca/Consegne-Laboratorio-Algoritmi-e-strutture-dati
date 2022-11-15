@@ -1,5 +1,6 @@
 # Consegne-Laboratorio-Algoritmi-e-strutture-dati
 
+
 .
 ├── Alberi
 │   ├── 1-tree-dot.cc
@@ -155,3 +156,5 @@
 │   ├── a.out
 │   └── graph.dot
 └── dizionari-tabelle di hash.pdf
+
+
